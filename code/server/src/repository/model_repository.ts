@@ -65,6 +65,9 @@ class ModelRepository {
 	public insert = async (data: Partial<Model>): Promise<Model | unknown> => {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
+
+		console.log(data);
+
 		// requête SQL
 		// SELECT roles.* FROM za_nails WHERE roles.id = 1;
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
@@ -76,7 +79,7 @@ class ModelRepository {
 					NULL,
 					:name,
 					:type,
-					:types_id
+					:type_ids
 				)
             ;
         `;
@@ -93,6 +96,13 @@ class ModelRepository {
 			`;
 			await connection.execute(sql, data);
 
+			// join> (NULL, @id, 1),(NULL, @id, 2),(NULL, @id, 	3)
+
+			const values = data.type_ids
+				?.split(",")
+				.map((item) => `(${item}, @id)`)
+				.join(",");
+
 			sql = `
 			INSERT INTO 
 					${process.env.MYSQL_DATABASE}.type_model
@@ -101,12 +111,6 @@ class ModelRepository {
 				;
 			`;
 
-			// join> (NULL, @id, 1),(NULL, @id, 2),(NULL, @id, 	3)
-
-			const values = data.types_ids
-				?.split(",")
-				.map((item) => `(NULL, @id, ${item})`)
-				.join(",");
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
 			const [results] = await connection.execute(sql, data);
@@ -117,6 +121,95 @@ class ModelRepository {
 			return results;
 		} catch (error) {
 			//annuler l'ensemble des requêtes de la transaction si l'une des requêtes a échouer
+			connection.rollback();
+			// si la requête à échouer
+			return error;
+		}
+	};
+
+	public update = async (data: Partial<Model>): Promise<Model | unknown> => {
+		// connexion au serveur MySQL
+		const connection = await new MySQLService().connect();
+		
+		// requête SQL
+		// créer une variable de requête SQL en préfixant le nom d'une variable par :
+		const sql = `
+			UPDATE 
+				${process.env.MYSQL_DATABASE}.${this.table}
+			SET 
+				${this.table}.name = :name,
+				${this.table}.type = :type,
+				${this.table}.types_id = :type_ids
+			WHERE
+				${this.table}.id = :id
+			;
+        `;
+		//  exécuter la requête
+		// try / catch : permet d'exécuter une instruction, si l'instruction échoue, une erreur est recupérée
+		try {
+			//créer une transaction SQL
+			connection.beginTransaction();
+
+			const [results] = await connection.execute(sql, data);
+
+			//valider la transaction lorsque l'ensemble des requêtes d'une transaction ont réussi
+			connection.commit();
+
+			return results;
+		} catch (error) {
+			//annuler l'ensemble des requêtes de la transaction si l'une des requêtes a échouer
+			connection.rollback();
+			// si la requête à échouer
+			return error;
+		}
+	};
+
+	public delete = async (data: Partial<Model>): Promise<Model | unknown> => {
+		// connexion au serveur MySQL
+		const connection = await new MySQLService().connect();
+		// requête SQL
+		// créer une variable de requête SQL en préfixant le nom d'une variable par :
+		let sql = `
+			DELETE FROM
+				${process.env.MYSQL_DATABASE}.${this.table}
+			WHERE
+				${this.table}.id = :id
+			;
+        `;
+		//  exécuter la requête
+		// try / catch : permet d'exécuter une instruction, si l'instruction échoue, une erreur est recupérée
+		try {
+			connection.beginTransaction();
+			// récuperation des résultats de la requête
+			// results représente le premier indice d'un array envoyer
+			await connection.execute(sql, data);
+
+			sql = `
+				DELETE FROM
+					${process.env.MYSQL_DATABASE}.type_model
+				WHERE
+					type_model.model_id = :id
+			`;
+
+			const [results] = await connection.execute(sql, data);
+
+			connection.commit();
+
+			const values = data.type_ids
+				?.split(",")
+				.map((item) => `(NULL, @id, ${item})`)
+				.join(",");
+
+			sql = `
+			INSERT INTO 
+					${process.env.MYSQL_DATABASE}.type_model
+			VALUES
+					${values}
+				;
+			`;
+
+			return results;
+		} catch (error) {
 			connection.rollback();
 			// si la requête à échouer
 			return error;

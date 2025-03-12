@@ -30,6 +30,9 @@ class Server {
 		// accéder aux contenus de la requête HTTP - propriété body - au format JSON
 		this.app.use(express.json());
 
+		// définir le dossier public
+		this.app.use(express.static(process.env.ASSETS_DIR as string));
+
 		// relier le router à express (application)
 		this.app.use(this.router);
 
