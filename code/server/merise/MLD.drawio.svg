@@ -1,0 +1,1157 @@
+<<<<<<< HEAD
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1441px" height="466px" viewBox="-0.5 -0.5 1441 466" content="&lt;mxfile&gt;&lt;diagram id=&quot;mGwpxF8q471uNKkKx3Ff&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+=======
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1441px" height="466px" viewBox="-0.5 -0.5 1441 466" content="&lt;mxfile&gt;&lt;diagram id=&quot;mGwpxF8q471uNKkKx3Ff&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078
+    <defs>
+        <clipPath id="mx-clip-0-50-30-30-0">
+            <rect x="0" y="50" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-50-264-30-0">
+            <rect x="36" y="50" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-80-264-30-0">
+            <rect x="36" y="80" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-380-30-30-30-0">
+            <rect x="380" y="30" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-30-294-30-0">
+            <rect x="416" y="30" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-60-294-30-0">
+            <rect x="416" y="60" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-90-294-30-0">
+            <rect x="416" y="90" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-120-294-30-0">
+            <rect x="416" y="120" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-150-294-30-0">
+            <rect x="416" y="150" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-180-294-30-0">
+            <rect x="416" y="180" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-210-294-30-0">
+            <rect x="416" y="210" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-380-240-30-30-0">
+            <rect x="380" y="240" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-240-294-30-0">
+            <rect x="416" y="240" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-380-270-30-30-0">
+            <rect x="380" y="270" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-270-294-30-0">
+            <rect x="416" y="270" width="294" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-0-345-30-30-0">
+            <rect x="0" y="345" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-345-264-30-0">
+            <rect x="36" y="345" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-375-264-30-0">
+            <rect x="36" y="375" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-405-264-30-0">
+            <rect x="36" y="405" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-0-435-30-30-0">
+            <rect x="0" y="435" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-36-435-264-30-0">
+            <rect x="36" y="435" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-380-360-30-30-0">
+            <rect x="380" y="360" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-360-264-30-0">
+            <rect x="416" y="360" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-390-264-30-0">
+            <rect x="416" y="390" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-416-420-264-30-0">
+            <rect x="416" y="420" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1140-315-30-30-0">
+            <rect x="1140" y="315" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1176-315-264-30-0">
+            <rect x="1176" y="315" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1176-345-264-30-0">
+            <rect x="1176" y="345" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1176-375-264-30-0">
+            <rect x="1176" y="375" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1140-405-30-30-0">
+            <rect x="1140" y="405" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1176-405-264-30-0">
+            <rect x="1176" y="405" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-740-105-30-30-0">
+            <rect x="740" y="105" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-105-264-30-0">
+            <rect x="776" y="105" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-135-264-30-0">
+            <rect x="776" y="135" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-165-264-30-0">
+            <rect x="776" y="165" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-195-264-30-0">
+            <rect x="776" y="195" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-740-360-30-30-0">
+            <rect x="740" y="360" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-360-264-30-0">
+            <rect x="776" y="360" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-740-390-30-30-0">
+            <rect x="740" y="390" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-390-264-30-0">
+            <rect x="776" y="390" width="264" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-740-420-30-30-0">
+            <rect x="740" y="420" width="30" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-776-420-264-30-0">
+            <rect x="776" y="420" width="264" height="30"/>
+        </clipPath>
+    </defs>
+    <g>
+<<<<<<< HEAD
+        <g>
+            <path d="M 0 50 L 0 20 L 300 20 L 300 50" fill="#647687" stroke="#314354" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(100, 118, 135), rgb(125, 140, 155)); stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 0 50 L 0 110 L 300 110 L 300 50" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 0 50 L 300 50" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 30 50 L 30 80 L 30 110" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="149.5" y="39.5">
+                    Role
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 0 50 M 300 50 M 300 80 L 0 80" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="0" y="50" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 50 M 30 50 M 30 80 M 0 80" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-0-50-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="14.5" y="69.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="30" y="50" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 50 M 300 50 M 300 80 M 30 80" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-36-50-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="69.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="0" y="80" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 80 M 30 80 M 30 110 M 0 110" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="30" y="80" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 80 M 300 80 M 300 110 M 30 110" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-36-80-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="99.5">
+                    name
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 380 30 L 380 0 L 710 0 L 710 30" fill="#a0522d" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(160, 82, 45), rgb(210, 143, 112)); stroke: light-dark(rgb(109, 31, 0), rgb(252, 185, 158));"/>
+            <path d="M 380 30 L 380 300 L 710 300 L 710 30" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(109, 31, 0), rgb(252, 185, 158));"/>
+            <path d="M 380 30 L 710 30" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(109, 31, 0), rgb(252, 185, 158));"/>
+            <path d="M 410 30 L 410 60 L 410 90 L 410 120 L 410 150 L 410 180 L 410 210 L 410 240 L 410 270 L 410 300" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(109, 31, 0), rgb(252, 185, 158));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="544.5" y="19.5">
+                    User
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 380 30 M 710 30 M 710 60 L 380 60" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="380" y="30" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 30 M 410 30 M 410 60 M 380 60" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-380-30-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="394.5" y="49.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="410" y="30" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 30 M 710 30 M 710 60 M 410 60" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-416-30-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="49.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="60" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 60 M 410 60 M 410 90 M 380 90" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="60" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 60 M 710 60 M 710 90 M 410 90" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-60-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="79.5">
+                    firstname
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="90" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 90 M 410 90 M 410 120 M 380 120" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="90" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 90 M 710 90 M 710 120 M 410 120" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-90-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="109.5">
+                    lastname
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="120" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 120 M 410 120 M 410 150 M 380 150" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="120" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 120 M 710 120 M 710 150 M 410 150" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-120-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="139.5">
+                    email
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="150" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 150 M 410 150 M 410 180 M 380 180" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="150" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 150 M 710 150 M 710 180 M 410 180" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-150-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="169.5">
+                    phone number
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="180" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 180 M 410 180 M 410 210 M 380 210" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="180" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 180 M 710 180 M 710 210 M 410 210" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-180-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="199.5">
+                    password
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="210" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 210 M 410 210 M 410 240 M 380 240" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="210" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 210 M 710 210 M 710 240 M 410 240" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-210-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="229.5">
+                    commentary
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="240" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 240 M 410 240 M 410 270 M 380 270" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-380-240-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="394.5" y="259.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="410" y="240" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 240 M 710 240 M 710 270 M 410 270" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-240-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="259.5">
+                    id_commentary
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="270" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 270 M 410 270 M 410 300 M 380 300" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-380-270-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="394.5" y="289.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="410" y="270" width="300" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 270 M 710 270 M 710 300 M 410 300" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-270-294-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="289.5">
+                    id_role
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 0 345 L 0 315 L 300 315 L 300 345" fill="#f0a30a" stroke="#bd7000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(240, 163, 10), rgb(154, 88, 0)); stroke: light-dark(rgb(189, 112, 0), rgb(193, 127, 31));"/>
+            <path d="M 0 345 L 0 465 L 300 465 L 300 345" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(189, 112, 0), rgb(193, 127, 31));"/>
+            <path d="M 0 345 L 300 345" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(189, 112, 0), rgb(193, 127, 31));"/>
+            <path d="M 30 345 L 30 375 L 30 405 L 30 435 L 30 465" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(189, 112, 0), rgb(193, 127, 31));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                <text x="149.5" y="334.5">
+                    Booking
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 0 345 M 300 345 M 300 375 L 0 375" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="0" y="345" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 345 M 30 345 M 30 375 M 0 375" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-0-345-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="14.5" y="364.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="30" y="345" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 345 M 300 345 M 300 375 M 30 375" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-36-345-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="364.5">
+                    id TINYINT(4) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="0" y="375" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 375 M 30 375 M 30 405 M 0 405" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="30" y="375" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 375 M 300 375 M 300 405 M 30 405" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-36-375-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="394.5">
+                    datetime
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="0" y="405" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 405 M 30 405 M 30 435 M 0 435" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="30" y="405" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 405 M 300 405 M 300 435 M 30 435" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-36-405-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="424.5">
+                    types
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="0" y="435" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 0 435 M 30 435 M 30 465 M 0 465" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-0-435-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="14.5" y="454.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="30" y="435" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 30 435 M 300 435 M 300 465 M 30 465" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-36-435-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="37.5" y="454.5">
+                    id_types
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 380 360 L 380 330 L 680 330 L 680 360" fill="#60a917" stroke="#2d7600" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(96, 169, 23), rgb(74, 137, 12)); stroke: light-dark(rgb(45, 118, 0), rgb(115, 177, 76));"/>
+            <path d="M 380 360 L 380 450 L 680 450 L 680 360" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(45, 118, 0), rgb(115, 177, 76));"/>
+            <path d="M 380 360 L 680 360" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(45, 118, 0), rgb(115, 177, 76));"/>
+            <path d="M 410 360 L 410 390 L 410 420 L 410 450" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(45, 118, 0), rgb(115, 177, 76));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="529.5" y="349.5">
+                    Type
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 380 360 M 680 360 M 680 390 L 380 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="380" y="360" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 360 M 410 360 M 410 390 M 380 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-380-360-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="394.5" y="379.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="410" y="360" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 360 M 680 360 M 680 390 M 410 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-416-360-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="379.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="390" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 390 M 410 390 M 410 420 M 380 420" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="390" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 390 M 680 390 M 680 420 M 410 420" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-390-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="409.5">
+                    name
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="380" y="420" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 380 420 M 410 420 M 410 450 M 380 450" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="420" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 410 420 M 680 420 M 680 450 M 410 450" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-416-420-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="417.5" y="439.5">
+                    type
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 300 450 L 340 450 L 340 375 L 380 375" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 1140 315 L 1140 285 L 1440 285 L 1440 315" fill="#a20025" stroke="#6f0000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(162, 0, 37), rgb(255, 173, 205)); stroke: light-dark(rgb(111, 0, 0), rgb(255, 197, 197));"/>
+            <path d="M 1140 315 L 1140 435 L 1440 435 L 1440 315" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(111, 0, 0), rgb(255, 197, 197));"/>
+            <path d="M 1140 315 L 1440 315" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(111, 0, 0), rgb(255, 197, 197));"/>
+            <path d="M 1170 315 L 1170 345 L 1170 375 L 1170 405 L 1170 435" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(111, 0, 0), rgb(255, 197, 197));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="1289.5" y="304.5">
+                    Model
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 1140 315 M 1440 315 M 1440 345 L 1140 345" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="1140" y="315" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1140 315 M 1170 315 M 1170 345 M 1140 345" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-1140-315-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1154.5" y="334.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="1170" y="315" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1170 315 M 1440 315 M 1440 345 M 1170 345" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-1176-315-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1177.5" y="334.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="1140" y="345" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1140 345 M 1170 345 M 1170 375 M 1140 375" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="1170" y="345" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1170 345 M 1440 345 M 1440 375 M 1170 375" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-1176-345-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1177.5" y="364.5">
+                    name
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="1140" y="375" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1140 375 M 1170 375 M 1170 405 M 1140 405" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="1170" y="375" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1170 375 M 1440 375 M 1440 405 M 1170 405" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-1176-375-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1177.5" y="394.5">
+                    type
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="1140" y="405" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1140 405 M 1170 405 M 1170 435 M 1140 435" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-1140-405-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1154.5" y="424.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="1170" y="405" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 1170 405 M 1440 405 M 1440 435 M 1170 435" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-1176-405-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="1177.5" y="424.5">
+                    id_type
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 680 375 L 710 375 L 710 405 L 740 405" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 740 105 L 740 75 L 1040 75 L 1040 105" fill="#6a00ff" stroke="#3700cc" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(106, 0, 255), rgb(255, 167, 255)); stroke: light-dark(rgb(55, 0, 204), rgb(239, 192, 255));"/>
+            <path d="M 740 105 L 740 225 L 1040 225 L 1040 105" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(55, 0, 204), rgb(239, 192, 255));"/>
+            <path d="M 740 105 L 1040 105" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(55, 0, 204), rgb(239, 192, 255));"/>
+            <path d="M 770 105 L 770 135 L 770 165 L 770 195 L 770 225" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(55, 0, 204), rgb(239, 192, 255));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="889.5" y="94.5">
+                    Commentary
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 740 105 M 1040 105 M 1040 135 L 740 135" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="740" y="105" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 105 M 770 105 M 770 135 M 740 135" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-740-105-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="754.5" y="124.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="770" y="105" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 105 M 1040 105 M 1040 135 M 770 135" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-776-105-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="124.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="740" y="135" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 135 M 770 135 M 770 165 M 740 165" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="770" y="135" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 135 M 1040 135 M 1040 165 M 770 165" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-776-135-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="154.5">
+                    title
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="740" y="165" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 165 M 770 165 M 770 195 M 740 195" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="770" y="165" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 165 M 1040 165 M 1040 195 M 770 195" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-776-165-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="184.5">
+                    name
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="740" y="195" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 195 M 770 195 M 770 225 M 740 225" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="770" y="195" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 195 M 1040 195 M 1040 225 M 770 225" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-776-195-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="214.5">
+                    date
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 710 255 L 725 255 L 725 120 L 740 120" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 740 360 L 740 330 L 1040 330 L 1040 360" fill="#647687" stroke="#314354" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(100, 118, 135), rgb(125, 140, 155)); stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 740 360 L 740 450 L 1040 450 L 1040 360" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 740 360 L 1040 360" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+            <path d="M 770 360 L 770 390 L 770 420 L 770 450" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(49, 67, 84), rgb(169, 184, 199));"/>
+        </g>
+        <g>
+            <g fill="#ffffff" font-family="&quot;Helvetica&quot;" font-weight="bold" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                <text x="889.5" y="349.5">
+                    Type_Model
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 740 360 M 1040 360 M 1040 390 L 740 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="740" y="360" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 360 M 770 360 M 770 390 M 740 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" clip-path="url(#mx-clip-740-360-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="754.5" y="379.5">
+                    PK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="770" y="360" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 360 M 1040 360 M 1040 390 M 770 390" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-776-360-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="379.5">
+                    id TINYINT(1) UNSIGNED AUTO INCREMENT
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="740" y="390" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 390 M 770 390 M 770 420 M 740 420" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-740-390-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="754.5" y="409.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="770" y="390" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 390 M 1040 390 M 1040 420 M 770 420" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-776-390-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="409.5">
+                    id_type
+                </text>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="740" y="420" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 740 420 M 770 420 M 770 450 M 740 450" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-740-420-30-30-0)" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="754.5" y="439.5">
+                    FK
+                </text>
+            </g>
+        </g>
+        <g>
+            <rect x="770" y="420" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+            <path d="M 770 420 M 1040 420 M 1040 450 M 770 450" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" clip-path="url(#mx-clip-776-420-264-30-0)" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="777.5" y="439.5">
+                    id_model
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 1040 435 L 1090 435 L 1090 330 L 1140 330" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 300 65 L 340 65 L 340 285 L 380 285" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+=======
+        <path d="M 0 50 L 0 20 L 300 20 L 300 50" fill="#647687" stroke="#314354" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 50 L 0 110 L 300 110 L 300 50" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 50 L 300 50" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30 50 L 30 80 L 30 110" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="149.5" y="39.5">
+                Role
+            </text>
+        </g>
+        <path d="M 0 50 M 300 50 M 300 80 L 0 80" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 50 M 30 50 M 30 80 M 0 80" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-0-50-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="14.5" y="69.5">
+                PK
+            </text>
+        </g>
+        <path d="M 30 50 M 300 50 M 300 80 M 30 80" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-36-50-264-30-0)" font-size="12px">
+            <text x="37.5" y="69.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 0 80 M 30 80 M 30 110 M 0 110" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30 80 M 300 80 M 300 110 M 30 110" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-36-80-264-30-0)" font-size="12px">
+            <text x="37.5" y="99.5">
+                name
+            </text>
+        </g>
+        <path d="M 380 30 L 380 0 L 710 0 L 710 30" fill="#a0522d" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 30 L 380 300 L 710 300 L 710 30" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 30 L 710 30" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 30 L 410 60 L 410 90 L 410 120 L 410 150 L 410 180 L 410 210 L 410 240 L 410 270 L 410 300" fill="none" stroke="#6d1f00" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="544.5" y="19.5">
+                User
+            </text>
+        </g>
+        <path d="M 380 30 M 710 30 M 710 60 L 380 60" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 30 M 410 30 M 410 60 M 380 60" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-380-30-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="394.5" y="49.5">
+                PK
+            </text>
+        </g>
+        <path d="M 410 30 M 710 30 M 710 60 M 410 60" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-416-30-294-30-0)" font-size="12px">
+            <text x="417.5" y="49.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 380 60 M 410 60 M 410 90 M 380 90" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 60 M 710 60 M 710 90 M 410 90" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-60-294-30-0)" font-size="12px">
+            <text x="417.5" y="79.5">
+                firstname
+            </text>
+        </g>
+        <path d="M 380 90 M 410 90 M 410 120 M 380 120" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 90 M 710 90 M 710 120 M 410 120" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-90-294-30-0)" font-size="12px">
+            <text x="417.5" y="109.5">
+                lastname
+            </text>
+        </g>
+        <path d="M 380 120 M 410 120 M 410 150 M 380 150" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 120 M 710 120 M 710 150 M 410 150" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-120-294-30-0)" font-size="12px">
+            <text x="417.5" y="139.5">
+                email
+            </text>
+        </g>
+        <path d="M 380 150 M 410 150 M 410 180 M 380 180" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 150 M 710 150 M 710 180 M 410 180" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-150-294-30-0)" font-size="12px">
+            <text x="417.5" y="169.5">
+                phone number
+            </text>
+        </g>
+        <path d="M 380 180 M 410 180 M 410 210 M 380 210" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 180 M 710 180 M 710 210 M 410 210" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-180-294-30-0)" font-size="12px">
+            <text x="417.5" y="199.5">
+                password
+            </text>
+        </g>
+        <path d="M 380 210 M 410 210 M 410 240 M 380 240" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 210 M 710 210 M 710 240 M 410 240" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-210-294-30-0)" font-size="12px">
+            <text x="417.5" y="229.5">
+                commentary
+            </text>
+        </g>
+        <path d="M 380 240 M 410 240 M 410 270 M 380 270" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-380-240-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="394.5" y="259.5">
+                FK
+            </text>
+        </g>
+        <path d="M 410 240 M 710 240 M 710 270 M 410 270" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-240-294-30-0)" font-size="12px">
+            <text x="417.5" y="259.5">
+                id_commentary
+            </text>
+        </g>
+        <path d="M 380 270 M 410 270 M 410 300 M 380 300" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-380-270-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="394.5" y="289.5">
+                FK
+            </text>
+        </g>
+        <path d="M 410 270 M 710 270 M 710 300 M 410 300" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-270-294-30-0)" font-size="12px">
+            <text x="417.5" y="289.5">
+                id_role
+            </text>
+        </g>
+        <path d="M 0 345 L 0 315 L 300 315 L 300 345" fill="#f0a30a" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 345 L 0 465 L 300 465 L 300 345" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 345 L 300 345" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30 345 L 30 375 L 30 405 L 30 435 L 30 465" fill="none" stroke="#bd7000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="149.5" y="334.5">
+                Booking
+            </text>
+        </g>
+        <path d="M 0 345 M 300 345 M 300 375 L 0 375" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 345 M 30 345 M 30 375 M 0 375" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-0-345-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="14.5" y="364.5">
+                PK
+            </text>
+        </g>
+        <path d="M 30 345 M 300 345 M 300 375 M 30 375" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-36-345-264-30-0)" font-size="12px">
+            <text x="37.5" y="364.5">
+                id TINYINT(4) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 0 375 M 30 375 M 30 405 M 0 405" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30 375 M 300 375 M 300 405 M 30 405" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-36-375-264-30-0)" font-size="12px">
+            <text x="37.5" y="394.5">
+                date time
+            </text>
+        </g>
+        <path d="M 0 405 M 30 405 M 30 435 M 0 435" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30 405 M 300 405 M 300 435 M 30 435" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-36-405-264-30-0)" font-size="12px">
+            <text x="37.5" y="424.5">
+                type
+            </text>
+        </g>
+        <path d="M 0 435 M 30 435 M 30 465 M 0 465" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-0-435-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="14.5" y="454.5">
+                FK
+            </text>
+        </g>
+        <path d="M 30 435 M 300 435 M 300 465 M 30 465" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-36-435-264-30-0)" font-size="12px">
+            <text x="37.5" y="454.5">
+                id_type
+            </text>
+        </g>
+        <path d="M 380 360 L 380 330 L 680 330 L 680 360" fill="#60a917" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 360 L 380 450 L 680 450 L 680 360" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 360 L 680 360" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 360 L 410 390 L 410 420 L 410 450" fill="none" stroke="#2d7600" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="529.5" y="349.5">
+                Type
+            </text>
+        </g>
+        <path d="M 380 360 M 680 360 M 680 390 L 380 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 380 360 M 410 360 M 410 390 M 380 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-380-360-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="394.5" y="379.5">
+                PK
+            </text>
+        </g>
+        <path d="M 410 360 M 680 360 M 680 390 M 410 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-416-360-264-30-0)" font-size="12px">
+            <text x="417.5" y="379.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 380 390 M 410 390 M 410 420 M 380 420" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 390 M 680 390 M 680 420 M 410 420" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-390-264-30-0)" font-size="12px">
+            <text x="417.5" y="409.5">
+                name
+            </text>
+        </g>
+        <path d="M 380 420 M 410 420 M 410 450 M 380 450" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 420 M 680 420 M 680 450 M 410 450" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-416-420-264-30-0)" font-size="12px">
+            <text x="417.5" y="439.5">
+                type
+            </text>
+        </g>
+        <path d="M 300 450 L 340 450 L 340 375 L 380 375" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1140 315 L 1140 285 L 1440 285 L 1440 315" fill="#a20025" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1140 315 L 1140 435 L 1440 435 L 1440 315" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1140 315 L 1440 315" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1170 315 L 1170 345 L 1170 375 L 1170 405 L 1170 435" fill="none" stroke="#6f0000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="1289.5" y="304.5">
+                Model
+            </text>
+        </g>
+        <path d="M 1140 315 M 1440 315 M 1440 345 L 1140 345" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1140 315 M 1170 315 M 1170 345 M 1140 345" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-1140-315-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="1154.5" y="334.5">
+                PK
+            </text>
+        </g>
+        <path d="M 1170 315 M 1440 315 M 1440 345 M 1170 345" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-1176-315-264-30-0)" font-size="12px">
+            <text x="1177.5" y="334.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 1140 345 M 1170 345 M 1170 375 M 1140 375" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1170 345 M 1440 345 M 1440 375 M 1170 375" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-1176-345-264-30-0)" font-size="12px">
+            <text x="1177.5" y="364.5">
+                name
+            </text>
+        </g>
+        <path d="M 1140 375 M 1170 375 M 1170 405 M 1140 405" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1170 375 M 1440 375 M 1440 405 M 1170 405" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-1176-375-264-30-0)" font-size="12px">
+            <text x="1177.5" y="394.5">
+                type
+            </text>
+        </g>
+        <path d="M 1140 405 M 1170 405 M 1170 435 M 1140 435" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-1140-405-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="1154.5" y="424.5">
+                FK
+            </text>
+        </g>
+        <path d="M 1170 405 M 1440 405 M 1440 435 M 1170 435" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-1176-405-264-30-0)" font-size="12px">
+            <text x="1177.5" y="424.5">
+                id_type
+            </text>
+        </g>
+        <path d="M 680 375 L 710 375 L 710 405 L 740 405" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 105 L 740 75 L 1040 75 L 1040 105" fill="#6a00ff" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 105 L 740 225 L 1040 225 L 1040 105" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 105 L 1040 105" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 770 105 L 770 135 L 770 165 L 770 195 L 770 225" fill="none" stroke="#3700cc" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="889.5" y="94.5">
+                Commentary
+            </text>
+        </g>
+        <path d="M 740 105 M 1040 105 M 1040 135 L 740 135" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 105 M 770 105 M 770 135 M 740 135" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-740-105-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="754.5" y="124.5">
+                PK
+            </text>
+        </g>
+        <path d="M 770 105 M 1040 105 M 1040 135 M 770 135" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-776-105-264-30-0)" font-size="12px">
+            <text x="777.5" y="124.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 740 135 M 770 135 M 770 165 M 740 165" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 770 135 M 1040 135 M 1040 165 M 770 165" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-776-135-264-30-0)" font-size="12px">
+            <text x="777.5" y="154.5">
+                title
+            </text>
+        </g>
+        <path d="M 740 165 M 770 165 M 770 195 M 740 195" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 770 165 M 1040 165 M 1040 195 M 770 195" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-776-165-264-30-0)" font-size="12px">
+            <text x="777.5" y="184.5">
+                name
+            </text>
+        </g>
+        <path d="M 740 195 M 770 195 M 770 225 M 740 225" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 770 195 M 1040 195 M 1040 225 M 770 225" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-776-195-264-30-0)" font-size="12px">
+            <text x="777.5" y="214.5">
+                date
+            </text>
+        </g>
+        <path d="M 710 255 L 725 255 L 725 120 L 740 120" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 360 L 740 330 L 1040 330 L 1040 360" fill="#647687" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 360 L 740 450 L 1040 450 L 1040 360" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 360 L 1040 360" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 770 360 L 770 390 L 770 420 L 770 450" fill="none" stroke="#314354" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="889.5" y="349.5">
+                Type_Model
+            </text>
+        </g>
+        <path d="M 740 360 M 1040 360 M 1040 390 L 740 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 360 M 770 360 M 770 390 M 740 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" clip-path="url(#mx-clip-740-360-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="754.5" y="379.5">
+                PK
+            </text>
+        </g>
+        <path d="M 770 360 M 1040 360 M 1040 390 M 770 390" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" text-decoration="underline" pointer-events="none" clip-path="url(#mx-clip-776-360-264-30-0)" font-size="12px">
+            <text x="777.5" y="379.5">
+                id TINYINT(1) UNSIGNED AUTO INCREMENT
+            </text>
+        </g>
+        <path d="M 740 390 M 770 390 M 770 420 M 740 420" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-740-390-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="754.5" y="409.5">
+                FK
+            </text>
+        </g>
+        <path d="M 770 390 M 1040 390 M 1040 420 M 770 420" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-776-390-264-30-0)" font-size="12px">
+            <text x="777.5" y="409.5">
+                id_type
+            </text>
+        </g>
+        <path d="M 740 420 M 770 420 M 770 450 M 740 450" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-740-420-30-30-0)" text-anchor="middle" font-size="12px">
+            <text x="754.5" y="439.5">
+                FK
+            </text>
+        </g>
+        <path d="M 770 420 M 1040 420 M 1040 450 M 770 450" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-776-420-264-30-0)" font-size="12px">
+            <text x="777.5" y="439.5">
+                id_model
+            </text>
+        </g>
+        <path d="M 1040 435 L 1090 435 L 1090 330 L 1140 330" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 300 65 L 340 65 L 340 285 L 380 285" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078
+    </g>
+</svg>

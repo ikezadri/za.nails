@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+
+.styliste{
+    display:flex;
+    column-gap:3rem;
+    padding:2rem;
+    img{width:50vw;}}
+
+h1{
+    text-decoration:none;
+    font-size:3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;}
+
+p{
+    text-decoration:none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    top:10rem;
+    right:9rem;}
+
+.gucci{
+    width:25vw;
+    padding-top:1rem;
+    position:relative;
+    z-index:1;}
+
+.vert{
+    width:25vw; 
+    padding-top:3rem;
+    z-index:2;
+    position:relative;
+    right:14px;}
+
+.colorer{
+    width:25vw;
+    padding-top:2rem;
+    position:relative;
+    right:25px;
+    z-index:3;}
+
+.imgcontainer{
+    display:flex;
+    justify-content:center;
+    padding-top:3rem;
+    padding-bottom:3rem;}
+=======
+.serpent{width:15rem;}
+
+h1{text-decoration:none;
+    text-align:center; 
+    font-size:medium; 
+    padding-top:10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078

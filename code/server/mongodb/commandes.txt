@@ -1,0 +1,13 @@
+/ se connecter au serveur MongoDB
+mongosh -u root --authenticationDatabase admin -p
+use admin
+show collections
+
+/ charger un fichier JS dans le serveur MongoDB
+mongoimport -d za_nails_dev -c contact --file contact.dev.json --jsonArray -u root --authenticationDatabase admin
+
+/ pour rentrer dans la base de données 
+use za_nails_dev
+show dbs
+/ pour voir les documents de la collection ciblée
+db.contact.find()

@@ -1,0 +1,11 @@
+mysql-data/
+mongodb-data/
+code/server/dist
+code/server/node_modules
+code/client/node_modules
+<<<<<<< HEAD
+code/client/dist
+node_modules/
+=======
+code/client/dist
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078

@@ -1,0 +1,32 @@
+/* style communs à toutes les pages */
+:root{
+<<<<<<< HEAD
+    --marronf:#1C110A;
+    --vanille:#E4D6A7;
+    --marronc:#7D5942;
+    --bleu:#1F628E;}
+=======
+    --violetf:#432373;
+    --mauve:#CCA9DD;
+    --bcasser:#FFFFD8;
+    --rose:#FD6C9E;
+    --barbapapa:#FFC2D8;}
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078
+
+*{box-sizing:border-box;}
+
+img{width:100%;}
+
+<<<<<<< HEAD
+.container{width:80rem; margin-inline:auto;}
+=======
+a{
+    text-decoration:none; 
+    color: var(--violetf); 
+    font-size:medium; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.container{
+    width:80rem; 
+    margin-inline:auto;}
+>>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078

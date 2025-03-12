@@ -1,0 +1,4 @@
+{"name": "za.nails - MongoDB",
+    "service": "mongodb", 
+    "dockerComposeFile": "../../docker-compose.dev.yaml",
+    "workspaceFolder": "/app"}

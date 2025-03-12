@@ -1,0 +1,17 @@
+[
+    {
+        "email": "igo@gmail.com",
+        "subject": "subject",
+        "message": "coucou"
+    },
+    {
+        "email": "gay@gmail.com",
+        "subject": "subject2",
+        "message":"lemarchand" 
+    },
+    {
+        "email":"ahmed@gmail.com",
+        "subject": "subject3",
+        "message":"poppers"
+    }
+]
