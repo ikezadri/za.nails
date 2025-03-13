@@ -45,6 +45,7 @@ CREATE TABLE za_nails_dev.booking(
 CREATE TABLE za_nails_dev.model(
     id TINYINT(1) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL, 
+    image VARCHAR(100) NOT NULL,
     type VARCHAR(50) NOT NULL,
     types_id TINYINT(1) UNSIGNED, 
     FOREIGN KEY (types_id) REFERENCES types(id));
@@ -89,8 +90,9 @@ VALUES
 
 INSERT INTO za_nails_dev.model
 VALUES
-    (NULL,'Juju','capsule',1),
-    (NULL,'Nita','ongles',2);
+    (NULL,'Juju','image','capsule',1),
+    (NULL, 'Linda','image','capsule',2),
+    (NULL,'Nita','image','ongles',2);
 
 
 -- modifier des enregistrements

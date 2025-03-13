@@ -140,7 +140,6 @@ class BookingRepository {
 				${this.table}.types_id = :types_id
 			WHERE
 				${this.table}.id = :id
-
 			;
         `;
 		//  exécuter la requête

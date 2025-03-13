@@ -78,6 +78,7 @@ class ModelRepository {
 				(
 					NULL,
 					:name,
+					:image,
 					:type,
 					:type_ids
 				)
@@ -138,8 +139,9 @@ class ModelRepository {
 				${process.env.MYSQL_DATABASE}.${this.table}
 			SET 
 				${this.table}.name = :name,
+				${this.table}.image = :image,
 				${this.table}.type = :type,
-				${this.table}.types_id = :type_ids
+				${this.table}.types_id = :types_ids
 			WHERE
 				${this.table}.id = :id
 			;

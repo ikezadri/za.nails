@@ -1,7 +1,9 @@
 import type { NextFunction, Request, Response } from "express";
 import fs from "node:fs/promises";
 import ModelRepository from "../repository/model_repository.js";
-import type Model from "../model/model.js";class ModelFileMiddleware {
+import type Model from "../model/model.js";
+
+class ModelFileMiddleware {
 	public process = async (req: Request, res: Response, next: NextFunction) => {
 		// récupérer le fichier transférer
 		const file = (req.files as Express.Multer.File[])[0];
@@ -31,9 +33,16 @@ import type Model from "../model/model.js";class ModelFileMiddleware {
 			// si un fichier n'a pas été sélectionné
 			else {
 				// PUT > récupérer le nom de l'ancienne image et l'affecter à la propriété gérant le fichier 
+				if (req.method === "PUT") {
+					req.body.image = (model as Model).image;}
 
 				// DELETE > supprimer le fichier
+				if (req.body === "DELETE") {
+			
+					await fs.rm(`${process.env.ASSETS_DIR}/img/${(model as Model).image}`
+				);
 			}
+		}
 
 			// passer le middleware suivant
 			next();
