@@ -6,7 +6,6 @@ const HomePage = () => {
 	//    fragment : balise sans nom (anonyme) = <> </>
 	return (
 		<>
-<<<<<<< HEAD
 			<RolesList />
 
 			<section className={styles.styliste}>
@@ -40,16 +39,6 @@ const HomePage = () => {
             	</Link>
 			</div>
 		</section>
-=======
-			<h1>Coucou la chienneté</h1>
-			<RolesList />
-			<div className={styles.serpent}>
-                {/* utiliser / pour cibler le dossier public */}
-                <Link to={"/"}>
-                    <img src="/img/serpent.jpg" alt="" />
-                </Link>
-            </div>
->>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078
 		</>
 		
 	);

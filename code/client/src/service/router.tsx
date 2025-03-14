@@ -4,10 +4,15 @@ import ContactPage from "../page/ContactPage";
 import BaseLayout from "../layout/BaseLayout";
 import PrestationPage from "../page/PrestationPage";
 import TarifsPage from "../page/TarifsPage";
+import AdminHomePage from "../page/admin/AdminHomePage";
+import AdminModelPage from "../component/admin/model/AdminModelPage";
+import AdminModelForm from "../page/admin/model/AdminModelFormPage";
 
 const router = createBrowserRouter([
 	{
+		// préfixe de toutes les URL enfants
 		path: "/",
+		// utilisation d'une mise en page
 		element: <BaseLayout />,
 		children: [
 			{
@@ -25,6 +30,24 @@ const router = createBrowserRouter([
 			{
 				path: "/tarifs",
 				element: <TarifsPage />,
+			},
+		],
+	},
+	{
+		path: "/admin/",
+		element: <BaseLayout />,
+		children: [
+			{
+				path: "",
+				element: <AdminHomePage />,
+			},
+			{
+				path: "model",
+				element: <AdminModelPage />,
+			},
+			{
+				path: "model/form",
+				element: <AdminModelForm />,
 			},
 		],
 	},

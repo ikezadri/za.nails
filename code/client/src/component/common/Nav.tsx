@@ -25,6 +25,8 @@ const Nav = () => {
 				<Link to={"/contact"}>Prestation</Link>
 				<Link to={"/prestation"}>Tarifs</Link>
 				<Link to={"/tarifs"}>Contact</Link>
+				<Link to={"/admin"}>Administration</Link>
+
 			</nav>
 		
 			<div className={styles["site-logo"]}>

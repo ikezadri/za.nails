@@ -1,7 +1,6 @@
 /* le suffixe module.css permet d'isoler les styles d'un composant */
 
 .site-header{
-<<<<<<< HEAD
     background:var(--marronf); 
     display:flex; 
     height:6rem; 
@@ -22,16 +21,3 @@ a{
 
 .btn-nav-mobile{display:none;}
 
-=======
-    background:var(--rose); 
-    display:flex; 
-    height:5rem; 
-    justify-content:space-between; 
-    align-items:center;} 
-
-.site-logo{
-    width:8rem;
-    padding-top:1rem;} 
-
-.btn-nav-mobile{display:none;}
->>>>>>> 9075952114b85f3da9628a1308414c9dd5a7b078
