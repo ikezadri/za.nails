@@ -5,14 +5,11 @@
     display:flex; 
     height:6rem; 
     justify-content:space-between; 
-    align-items:center;} 
-
-a{
-    align-items: center;
-    text-decoration:none; 
-    color: var(--vanille); 
-    font-size:medium; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    align-items:center;
+        a{color: var(--vanille);
+          text-decoration:none;
+          font-size:medium; 
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}} 
 
 .logo-jsp{
     scale:50%;

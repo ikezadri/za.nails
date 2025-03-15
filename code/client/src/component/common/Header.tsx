@@ -12,7 +12,7 @@ const Header = () => {
 				<Link to={"/"}>
 					<img
 						className={styles["logo-jsp"]}
-						src="/img/niniscloset3.svg"
+						src="/img/za.nails.svg"
 						alt=""
 					/>
 				</Link>

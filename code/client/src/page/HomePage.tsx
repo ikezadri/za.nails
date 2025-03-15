@@ -8,36 +8,29 @@ const HomePage = () => {
 		<>
 			<RolesList />
 
-			<section className={styles.styliste}>
+		<section className="fond">
+			<div className={styles.nailsart}>
                 {/* utiliser / pour cibler le dossier public */}
-				<div className={styles.mujer}>
-                <Link to={"/"}>
-                    <img src="/img/reflexion.jpeg" alt="" />
-                </Link>
+                    <img src="/img/nails-artist.png" alt="" />
+					<h1>Bienvenue sur mon site !</h1>
 
-				</div>
-					<h1>Titre</h1>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, sunt, suscipit libero repellendus mollitia numquam vitae ullam vel nemo culpa at necessitatibus explicabo, dolores autem consectetur animi adipisci eveniet natus!</p>
-            </section>
+           
+		    </div>
 
-		<section className={styles.imgcontainer}>
-			<div className={styles.gucci}>
-                <Link to={"/"}>
-                    <img src="/img/tenue-gucci2.png" alt="" />
-                </Link>
-			</div>
+			<section className={styles.imgcontainer}>
+				<div className={styles.babyboomer2}>
+                    <img src="/img/babyboomer2.png" alt="" />
+				</div>
 
-			<div className={styles.vert}>
-				<Link to={"/"}>
-                	<img src="/img/tenue-vert2.png" alt="" />
-            	</Link>
-			</div>
+				<div className={styles.cerise}>
+                	<img src="/img/cerise.png" alt="" />
+				</div>
 
-			<div className={styles.colorer}>
-				<Link to={"/"}>
-                	<img src="/img/tenues-colorer2.png" alt="" />
-            	</Link>
-			</div>
+				<div className={styles.serpent}>
+                	<img src="/img/serpent.png" alt="" />
+				</div>
+			</section>
 		</section>
 		</>
 		
