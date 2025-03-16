@@ -7,6 +7,8 @@ import TarifsPage from "../page/TarifsPage";
 import AdminHomePage from "../page/admin/AdminHomePage";
 import AdminModelPage from "../component/admin/model/AdminModelPage";
 import AdminModelForm from "../page/admin/model/AdminModelFormPage";
+import MoncomptePage from "../page/MoncomptePage";
+import ReservationPage from "../page/ReservationPage";
 
 const router = createBrowserRouter([
 	{
@@ -28,8 +30,16 @@ const router = createBrowserRouter([
 				element: <PrestationPage />,
 			},
 			{
+				path: "/moncompte",
+				element: <MoncomptePage />,
+			},
+			{
 				path: "/tarifs",
 				element: <TarifsPage />,
+			},
+			{
+				path: "/reservation",
+				element: <ReservationPage />,
 			},
 		],
 	},

@@ -6,11 +6,9 @@ import Header from "../component/common/Header";
 const BaseLayout = () => {
 	return (
 		<>
-		<Header />
-			<div className="container">
-				<Outlet />
-			</div>
-		<Footer />
+			<Header />
+			<Outlet />
+			<Footer />
 		</>
 	);
 };

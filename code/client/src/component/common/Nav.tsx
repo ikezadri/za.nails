@@ -23,6 +23,7 @@ const Nav = () => {
 				{/* <Link to={"/"}>Home</Link> */}
 				<Link to={"/prestation"}>Prestation</Link>
 				<Link to={"/tarifs"}>Tarifs</Link>
+				<Link to={"/moncompte"}>Mon compte</Link>
 				<Link to={"/contact"}>Contact</Link>
 				<Link to={"/admin"}>Administration</Link>
 

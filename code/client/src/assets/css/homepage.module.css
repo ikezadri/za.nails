@@ -41,6 +41,7 @@
 
 .imgcontainer{
         display:flex;
+        background: var(--vanille);
         justify-content:center;
         padding-top:3rem;
         padding-bottom:3rem;}
