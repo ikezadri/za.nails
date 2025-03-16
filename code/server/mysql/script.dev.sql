@@ -70,7 +70,7 @@ VALUES
 INSERT INTO za_nails_dev.commentary
 VALUES
     (NULL, 'je sais pas','jadore la lean','kaaris','2024-11-24'),
-    (NULL, 'prout','linda je taime','kalash criminel','1986-12-28');
+    (NULL, 'prout','linda je taime','kalash criminel','1996-12-28');
 
 INSERT INTO za_nails_dev.types
 VALUES

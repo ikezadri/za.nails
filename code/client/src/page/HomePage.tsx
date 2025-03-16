@@ -15,7 +15,6 @@ const HomePage = () => {
 					<h1>Bienvenue sur mon site !</h1>
 
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, sunt, suscipit libero repellendus mollitia numquam vitae ullam vel nemo culpa at necessitatibus explicabo, dolores autem consectetur animi adipisci eveniet natus!</p>
-           
 		    </div>
 
 			<section className={styles.imgcontainer}>

@@ -2,6 +2,7 @@
 
 .nailsart{
     display:flex;
+    background: var(--vanille);
     column-gap:3rem;
     padding:3rem;
         img{width:50vw;}
