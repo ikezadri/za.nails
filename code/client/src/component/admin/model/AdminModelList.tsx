@@ -30,11 +30,17 @@ const AdminModelList = () => {
 					<tr key={Math.random()}>
 						{model.name}
 						<td>{model.name}</td>
-						<td>{model.image}</td>
+						<td>
+							<img src={`${import.meta.env.VITE_API_URL}/img/${model.image}`} alt="" />
+							</td>
 						<td>{model.type}</td>
 						<td>
-							<Link to={""}>Update</Link>
-							<Link to={""}>Delete</Link>
+							<Link className="btn" to={`/admin/model/form/${model.id}`}>
+								Update
+							</Link>
+							<Link className="btn" to={`/admin/model/delete/${model.id}`}>
+								Delete
+							</Link>
 						</td>
 					</tr>
 				))}

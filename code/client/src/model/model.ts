@@ -4,7 +4,7 @@ type Model = {
     image: string;
     type: string;
     type_id: string;
-    type_ids: string
+    types_id: string
 };
 
 export default Model;

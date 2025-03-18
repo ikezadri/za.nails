@@ -6,9 +6,10 @@ import PrestationPage from "../page/PrestationPage";
 import TarifsPage from "../page/TarifsPage";
 import AdminHomePage from "../page/admin/AdminHomePage";
 import AdminModelPage from "../component/admin/model/AdminModelPage";
-import AdminModelForm from "../page/admin/model/AdminModelFormPage";
 import MoncomptePage from "../page/MoncomptePage";
 import ReservationPage from "../page/ReservationPage";
+import AdminModelFormPage from "../page/admin/model/AdminModelFormPage";
+import AdminModelDeletePage from "../page/admin/model/AdminModelDeletePage";
 
 const router = createBrowserRouter([
 	{
@@ -56,8 +57,12 @@ const router = createBrowserRouter([
 				element: <AdminModelPage />,
 			},
 			{
-				path: "model/form",
-				element: <AdminModelForm />,
+				path: "model/form/:id?",
+				element: <AdminModelFormPage />,
+			},
+			{
+				path: "model/delete/:id",
+				element: <AdminModelDeletePage />,
 			},
 		],
 	},

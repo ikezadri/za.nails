@@ -1,3 +1,4 @@
+import { log } from "node:console";
 import type Model from "../model/model.js";
 import MySQLService from "../service/mysql_service.js";
 
@@ -12,6 +13,8 @@ class ModelRepository {
 	public selectAll = async (): Promise<Model | unknown> => {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
+		// console.log(connection);
+		
 		// requête SQL
 		const sql = `
             SELECT 
@@ -20,7 +23,6 @@ class ModelRepository {
                 ${process.env.MYSQL_DATABASE}.${this.table}
             ;
         `;
-
 		//  exécuter la requête
 		// try / catch : permet d'exécuter une instruction, si l'instruction échoue, une erreur est recupérée
 		try {
@@ -55,7 +57,10 @@ class ModelRepository {
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
 			const [results] = await connection.execute(sql, data);
-			return results;
+
+			const result = (results as Model[]).shift();
+
+			return result;
 		} catch (error) {
 			// si la requête à échouer
 			return error;
@@ -66,7 +71,7 @@ class ModelRepository {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
 
-		console.log(data);
+		// console.log(data);
 
 		// requête SQL
 		// SELECT roles.* FROM za_nails WHERE roles.id = 1;
