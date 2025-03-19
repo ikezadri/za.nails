@@ -1,10 +1,10 @@
-import type Types from "./types.js";
+import Type from "./type.js";
 
 type Booking = {
 	id: number;
 	date_time: Date;
-	types: Types;
-	types_id: number;
+	type_id: number;
+	type: Type;
 };
 
 export default Booking;

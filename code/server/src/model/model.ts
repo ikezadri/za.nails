@@ -1,10 +1,11 @@
+import Type from "./type.js";
+
 type Model = {
-    id: string;
+    id: number;
     name: string;
     image: string;
-    type: string;
-    type_id: string;
-    type_ids: string
+    type_ids: string;
+    types: Type[];
 };
 
 export default Model;

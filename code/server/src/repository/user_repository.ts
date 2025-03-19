@@ -1,6 +1,6 @@
 
 import type User from "../model/user.js";
-import  type Roles from "../model/roles.js";
+import  type Role from "../model/role.js";
 import MySQLService from "../service/mysql_service.js";
 import RolesRepository from "./roles_repository.js";
 
@@ -35,16 +35,16 @@ class UserRepository {
 
 			const result = (results as User[]).shift() as User;
 
-			result.roles = (await new RolesRepository().selectOne({
-				id: result.roles_id,
-			})) as Roles;
+			result.role = (await new RolesRepository().selectOne({
+				id: result.role_id,
+			})) as Role;
 
 			for(let i = 0; i < (results as User[]).length; i++){
 				const result = (results as User[])[i];
 				// console.log(result);
-				result.roles = (await new RolesRepository().selectOne({
-					id: result.roles_id,
-				})) as Roles;
+				result.role = (await new RolesRepository().selectOne({
+					id: result.role_id,
+				})) as Role;
 			}
 			return results;
 		} catch (error) {

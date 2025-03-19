@@ -1,7 +1,7 @@
 import TypesRepository from "../repository/types_repository.js";
 import type Booking from "../model/booking.js";
 import MySQLService from "../service/mysql_service.js";
-import type Types from "../model/types.js";
+import type Type from "../model/type.js";
 
 class BookingRepository {
 	// nom de la table en SQL
@@ -33,9 +33,9 @@ class BookingRepository {
 				const result = (results as Booking[])[i];
 				// console.log(result);
 
-				result.types = (await new TypesRepository().selectOne({
-					id: result.types_id,
-				})) as Types;
+				result.type = (await new TypesRepository().selectOne({
+					id: result.type_id,
+				})) as Type;
 			}
 
 			return results;
@@ -72,9 +72,9 @@ class BookingRepository {
 
 			const result = (results as Booking[]).shift() as Booking;
 
-			result.types = (await new TypesRepository().selectOne({
-				id: result.types_id,
-			})) as Types;
+			result.type = (await new TypesRepository().selectOne({
+				id: result.type_id,
+			})) as Type;
 
 			return result;
 		} catch (error) {

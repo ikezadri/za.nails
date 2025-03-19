@@ -83,9 +83,7 @@ class ModelRepository {
 				(
 					NULL,
 					:name,
-					:image,
-					:type,
-					:type_ids
+					:image
 				)
             ;
         `;
@@ -144,9 +142,7 @@ class ModelRepository {
 				${process.env.MYSQL_DATABASE}.${this.table}
 			SET 
 				${this.table}.name = :name,
-				${this.table}.image = :image,
-				${this.table}.type = :type,
-				${this.table}.types_id = :types_ids
+				${this.table}.image = :image
 			WHERE
 				${this.table}.id = :id
 			;
@@ -178,9 +174,9 @@ class ModelRepository {
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
 		let sql = `
 			DELETE FROM
-				${process.env.MYSQL_DATABASE}.${this.table}
+				${process.env.MYSQL_DATABASE}.type_model
 			WHERE
-				${this.table}.id = :id
+				type_model.model_id = :id
 			;
         `;
 		//  exécuter la requête
@@ -189,31 +185,19 @@ class ModelRepository {
 			connection.beginTransaction();
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
-			await connection.execute(sql, data);
+			// await connection.execute(sql, data);
 
-			sql = `
-				DELETE FROM
-					${process.env.MYSQL_DATABASE}.type_model
-				WHERE
-					type_model.model_id = :id
-			`;
+			// sql = `
+			// 	DELETE FROM
+			// 		${process.env.MYSQL_DATABASE}.${this.table}
+			// 	WHERE
+			// 		${this.table}.id = :id
+			// 	;
+			// `;
 
 			const [results] = await connection.execute(sql, data);
 
 			connection.commit();
-
-			const values = data.type_ids
-				?.split(",")
-				.map((item) => `(NULL, @id, ${item})`)
-				.join(",");
-
-			sql = `
-			INSERT INTO 
-					${process.env.MYSQL_DATABASE}.type_model
-			VALUES
-					${values}
-				;
-			`;
 
 			return results;
 		} catch (error) {

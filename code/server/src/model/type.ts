@@ -1,12 +1,10 @@
 import type Model from "./model.js";
 
-type Types = {
+type Type = {
 	id: number;
 	name: string;
-	types: string;
-
 	model_ids: string;
 	models: Model[];
 };
 
-export default Types;
+export default Type;

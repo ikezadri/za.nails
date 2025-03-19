@@ -91,8 +91,10 @@ class ModelController {
 	public delete = async (req: Request, res: Response) => {
         // modifier un enregristrement
         // req.body permet de récupérer les contenus de la requête HTTP
-        const results = await new ModelRepository().delete(req.body);
-        
+		const results = await new ModelRepository().delete(req.body);
+	
+        console.log(results);
+		
         // si la requête SQL renvoie une erreur 
         if(results instanceof Error){
             res.status(400).json({
