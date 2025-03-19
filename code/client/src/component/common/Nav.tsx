@@ -26,6 +26,8 @@ const Nav = () => {
 				<Link to={"/moncompte"}>Mon compte</Link>
 				<Link to={"/contact"}>Contact</Link>
 				<Link to={"/admin"}>Administration</Link>
+				<Link to={"/register"}>Register</Link>
+				<Link to={"/login"}>Login</Link>
 
 			</nav>
 		

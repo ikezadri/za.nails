@@ -3,6 +3,7 @@ import type User from "../model/user.js";
 import  type Role from "../model/role.js";
 import MySQLService from "../service/mysql_service.js";
 import RolesRepository from "./roles_repository.js";
+import { UpdateResult } from "mongodb";
 
 class UserRepository {
 	// nom de la table en SQL
@@ -35,9 +36,7 @@ class UserRepository {
 
 			const result = (results as User[]).shift() as User;
 
-			result.role = (await new RolesRepository().selectOne({
-				id: result.role_id,
-			})) as Role;
+			
 
 			for(let i = 0; i < (results as User[]).length; i++){
 				const result = (results as User[])[i];
@@ -76,7 +75,14 @@ class UserRepository {
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
 			const [results] = await connection.execute(sql, data);
-			return results;
+
+			const result = (results as User[]).shift() as User;
+
+			result.role = (await new RolesRepository().selectOne({
+				id: result.role_id,
+			})) as Role;
+
+			return result;
 		} catch (error) {
 			// si la requête à échouer
 			return error;

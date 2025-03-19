@@ -62,11 +62,12 @@ VALUES
     (NULL, 'admin'),
     (NULL, 'user');
 
+-- mdp : admin / user / user2
 INSERT INTO za_nails_dev.user
 VALUES
-    (NULL,'Inès','Kezadri','inxsdk@gmail.com','0635784195','thdrcg',1),
-    (NULL, 'Linda','Florella','lindaflorella@gmail.com','0784596321','cozecvjz',2),
-    (NULL, 'Abdelhamid','Kezadri','a.kezadri@gmail.com','0789654123','czfedcez',2);
+    (NULL,'Inès','Kezadri','inxsdk@gmail.com','0635784195','$argon2i$v=19$m=16,t=2,p=1$R2pyV3U3RUNoMlVFeEs1dw$sTwZiFOH5Q5L4DHn0eNwtA',1),
+    (NULL, 'Linda','Florella','lindaflorella@gmail.com','0784596321','$argon2i$v=19$m=16,t=2,p=1$U3lsSXFCWXNNV0VOQ2czYQ$QSArdltwoAy+CidNTVQzsw',2),
+    (NULL, 'Abdelhamid','Kezadri','a.kezadri@gmail.com','0789654123','$argon2i$v=19$m=16,t=2,p=1$WnlJdTVEbHRDaXJrTjFobw$FcggMJan/nAT/vwXodQpIg',2);
 
 INSERT INTO za_nails_dev.commentary
 VALUES

@@ -15,6 +15,7 @@ import UserRouter from "../router/user_router.js";
 import ModelRouter from "../router/model_router.js";
 import TypesRouter from "../router/types_router.js";
 import ContactRouter from "../router/contact_router.js";
+import SecurityRouter from "../router/security_router.js";
 
 class Server {
 	// propiriétés
@@ -50,6 +51,7 @@ class Server {
 		this.router.use("/user", new UserRouter().getRoutes());
 		this.router.use("/model", new ModelRouter().getRoutes());
 		this.router.use("/contact", new ContactRouter().getRoutes());
+		this.router.use("/", new SecurityRouter().getRoutes());
 
 		// routeur des routes inexistantes doit être obligatoirement en dernière position
 		this.router.use("*", new NotFoundRouter().getRoutes());

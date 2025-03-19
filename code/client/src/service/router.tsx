@@ -10,6 +10,8 @@ import MoncomptePage from "../page/MoncomptePage";
 import ReservationPage from "../page/ReservationPage";
 import AdminModelFormPage from "../page/admin/model/AdminModelFormPage";
 import AdminModelDeletePage from "../page/admin/model/AdminModelDeletePage";
+import RegisterPage from "../page/RegisterPage";
+import LoginPage from "../page/LoginPage";
 
 const router = createBrowserRouter([
 	{
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
 			{
 				path: "/reservation",
 				element: <ReservationPage />,
+			},
+			{
+				path: "/register",
+				element: <RegisterPage />,
+			},
+			{
+				path: "/login",
+				element: <LoginPage />,
 			},
 		],
 	},

@@ -1,9 +1,10 @@
 import type Roles from "../model/role.js";
+import Role from "../model/role.js";
 import MySQLService from "../service/mysql_service.js";
 
 class RolesRepository {
 	// nom de la table en SQL
-	private table = "roles";
+	private table = "role";
 
 	// récuperer tous les enregistrements
 	// async crée une promesse
@@ -59,7 +60,10 @@ class RolesRepository {
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
 			const [results] = await connection.execute(sql, data);
-			return results;
+
+			const result = (results as Role[]).shift() as Role;
+
+			return result;
 		} catch (error) {
 			// si la requête à échouer
 			return error;

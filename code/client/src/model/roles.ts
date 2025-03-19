@@ -1,6 +1,6 @@
-type Roles = {
+type Role = {
     id: number;
     name: string;
 };
 
-export default Roles; 
+export default Role; 

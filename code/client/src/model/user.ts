@@ -1,14 +1,14 @@
-import type Roles from "./roles.js";
+import type Role from "./roles.js";
 
 type User = {
     id: number;
     firstname: string;
     lastname: string;
     email: string;
-    phonenumber: number;
+    phone_number: number;
     password: string;
-    roles_id: number;
-    roles: Roles;
+    role_id: number;
+    role: Role;
 };
 
 export default User;

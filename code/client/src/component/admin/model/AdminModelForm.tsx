@@ -38,7 +38,7 @@ const AdminModelForm = () => {
 				setTypes(responses[0].value.data);
 			if(id && responses[1].status === 'fulfilled'){
 				// console.log(responses[1]);
-				reset({ ...responses[1].value.data, types_id:responses[1].value.data.types_id.split(",") }
+				reset({ ...responses[1].value.data, type_id:responses[1].value.data.type_id.split(",") }
 			);}
 			}
 		})
@@ -62,7 +62,7 @@ const AdminModelForm = () => {
 		formData.append("image", values.image[0]);
 		formData.append("type", values.type);
 		// formData.append('type_id',values.type_id);
-		formData.append("types_id", values.types_id);
+		formData.append("type_id", values.type_id);
 
 		// console.log(formData);
 
