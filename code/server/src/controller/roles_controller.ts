@@ -5,6 +5,7 @@ class RolesController {
     public index = async (req: Request, res: Response) => {
         const results = await new RolesRepository().selectAll();
 
+
         // si la requête SQL renvoie une erreur 
         if(results instanceof Error){
             res.status(400).json({

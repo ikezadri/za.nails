@@ -196,6 +196,54 @@ class UserRepository {
 			return error;
 		}
 	};
+
+	// Selectionner un utilisateur par son email
+    public selectOneByEmail = async (
+        email: string,
+    ): Promise<User | unknown> => {
+        // connexion au serveur MySQL
+        const connection = await new MySQLService().connect();
+
+        // requête SQL
+        const sql = `
+        SELECT 
+            ${this.table}.*
+        FROM
+            ${process.env.MYSQL_DATABASE}.${this.table}
+            WHERE
+            ${this.table}.email = :email
+
+        `;
+        // exécuter la requête
+        // try / catch: permet d'exécuter une instruction, si l'instruction échoue, une erreur est récupérée
+
+        try {
+            // récuperer les résultats de la requête
+
+            // results représente le premier indice du array renvoyé
+            // requêtes préparées avec des varibales de requêtes sql permettent d'éviter les injections sql
+            // dat     permet de définir une valeur aux variables de requêtes
+            const [results] = await connection.execute(sql, {
+                email: email,
+            });
+
+            // récupérer le premier indice d'un array
+
+            const result = (results as User[]).shift() as User;
+            // si la requête a réussie
+
+            // composition permet d'associer la propriété d'un objet à un autre objet
+            // result.role = (await new RoleRepository().selectOne({
+            //     id: result.role_id,
+            // })) as Role;
+
+            return result;
+        } catch (error) {
+            // si la requête a échouée
+            return error;
+        }
+    };
+
 }
 
 export default UserRepository;

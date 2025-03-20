@@ -44,7 +44,7 @@ class Server {
 	private routersList = () => {
 		//préfixe à toutes les routes d'un routeur
 		this.router.use("/", new HomepageRouter().getRoutes());
-		this.router.use("/roles", new RolesRouter().getRoutes());
+		this.router.use("/role", new RolesRouter().getRoutes());
 		this.router.use("/booking", new BookingRouter().getRoutes());
 		this.router.use("/commentary", new CommentaryRouter().getRoutes());
 		this.router.use("/types", new TypesRouter().getRoutes());

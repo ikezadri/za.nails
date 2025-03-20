@@ -1,10 +1,8 @@
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import UserAPI from "../../service/user_api";
-import RolesAPI from "../../service/roles_api";
 import type User from "../../model/user";
-import type Role from "../../model/roles";
+import SecurityAPI from "../../service/security_api";
 
 const LoginForm = () => {
 	// handSubmit = permet de gérer la soumission du formulaire
@@ -16,52 +14,44 @@ const LoginForm = () => {
 		handleSubmit,
 		register,
 		formState: { errors },
-		reset
 	} = useForm<User>();
 
-	const [user, setUser] = useState<User[]>();
+	// Redirection
+    const navigate = useNavigate();
 
-	const navigate = useNavigate();
+    // Message du formulaire
+    const [message, setMessage] = useState<string>();
 
-	// récuperer l'id de l'URL
-	const { id } = useParams();
+    const OnSubmit = async (values: User) => {
+        console.log(values);
 
-	// soumission du formulaire// values récupère la saisie du formulaire
+        // Requete HTTP
+        const request = await new SecurityAPI().login(values)
+        console.log(request);
 
-	// deux types de formulaire :
-	// - sans fichier la propriété body de la requête HTTP peut être en JSON : JSON.stringly / dans la requête HTTP, utiliser l'en tête : Content-Types : application json
+            // Tester le code de statut HTTP
+            if ([200, 201].indexOf(request.status) > -1) {
+                // Stocker un message en session
+                window.sessionStorage.setItem("notice", "Account created");
+                // Redirection
+                // navigate("/admin");
+                } else {
+                setMessage("Check your email please");
+            }
+        }
 
-	// - avec fichier
-	//  - la propriété body de la requête HTTP doit être en FormData
-	//  - la balise <form> doit posséder l'attribut enctype="multipart/form-data"
 
-	const onSubmitModel = async (values: User) => {
-		// créer un FormData en reprenant strictement le nom des champs
-		const formData = new FormData();
-		formData.append("id", values.id.toString());
-        formData.append("email", values.email);
-		formData.append("password", values.password);
-		formData.append("role_id", values.role_id.toString());
+    // récuperer l'id de l'URL
+    const { id } = useParams();
 
-		// console.log(formData);
+    return (
+        <form onSubmit={handleSubmit(OnSubmit)}>
+            <p>Login FORM</p>
 
-		// requête HTTP
-		// const request = id
-		// ? await new UserAPI().update(formData)
-		// : await new UserAPI().insert(formData);
-		// console.log(request);
-		
-		// tester le code de statut HTTP
-		// if([200,201].indexOf(request.status) > -1){
-		// 	// redirection 
-		// 	navigate('/admin/user');
-		// }
-       
-	};
+            <Notice />
+            {message ? <p>{message}</p> : null}
 
-	return (
-		<form onSubmit={handleSubmit(onSubmitModel)} encType="multipart/form-data">
-			
+
             <p>
 				<label htmlFor="email">Email:</label>
 				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
