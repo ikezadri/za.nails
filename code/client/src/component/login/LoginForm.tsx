@@ -1,8 +1,10 @@
 import { useForm } from "react-hook-form";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import type User from "../../model/user";
 import SecurityAPI from "../../service/security_api";
+import { UserContext } from "../../provider/UserProvider";
+import Notice from "../common/Notice";
 
 const LoginForm = () => {
 	// handSubmit = permet de gérer la soumission du formulaire
@@ -22,8 +24,11 @@ const LoginForm = () => {
     // Message du formulaire
     const [message, setMessage] = useState<string>();
 
+	//  importer le contexte
+	const { user, setUser } = useContext(UserContext);
+
     const OnSubmit = async (values: User) => {
-        console.log(values);
+        // console.log(values);
 
         // Requete HTTP
         const request = await new SecurityAPI().login(values)
@@ -31,10 +36,16 @@ const LoginForm = () => {
 
             // Tester le code de statut HTTP
             if ([200, 201].indexOf(request.status) > -1) {
-                // Stocker un message en session
-                window.sessionStorage.setItem("notice", "Account created");
+				// stocker l'utilisation dans le contexte
+				setUser(request.data);
+               
                 // Redirection
-                // navigate("/admin");
+				if (request.data.role.name === "admin"){
+					navigate("/admin");
+				} else {
+					navigate("/");
+				}
+
                 } else {
                 setMessage("Check your email please");
             }
@@ -72,7 +83,7 @@ const LoginForm = () => {
 				<label htmlFor="password">Mot de passe:</label>
 				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
 				<input
-					type="text"
+					type="password"
 					{...register("password", {
 						required: "Mot de passe requis",
 						minLength: {

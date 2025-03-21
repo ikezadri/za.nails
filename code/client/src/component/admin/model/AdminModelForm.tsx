@@ -60,9 +60,7 @@ const AdminModelForm = () => {
 		formData.append("name", values.name);
 		// un champ file renvoie une liste de fichiers (FileList)
 		formData.append("image", values.image[0]);
-		formData.append("type", values.type);
 		// formData.append('type_id',values.type_id);
-		formData.append("type_id", values.type_id);
 
 		// console.log(formData);
 
@@ -120,34 +118,6 @@ const AdminModelForm = () => {
 				<small>{errors.types_id?.message}</small>
 			</p>
 
-			<p>
-				<label htmlFor="type">Type:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<select 
-					id="type_id"
-						{...register("type_id",{
-							required:"Type requit"})}
-				>
-						<option value="">Sélectionne ton type</option>
-							{types?.map((type: Types) => {
-					return <option key={Math.random()} value={type.id}>
-						{type.name}
-					</option>;
-				})}
-
-				</select>
-				{/* <input
-					type="text"
-					{...register("type", {
-						required: "Type requis",
-						minLength: {
-							value: 2,
-							message: "Type requis",
-						},
-					})}
-				/> */}
-				<small>{errors.type?.message}</small>
-			</p>
 			<p>
 				<input type="hidden"{...register('id') } value={id} />
 				<button type="submit">Submit</button>

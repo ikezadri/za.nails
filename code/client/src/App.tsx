@@ -5,8 +5,12 @@ import './assets/css/reset.css';
 import "./assets/css/style.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./service/router";
+import { UserProvider } from './provider/UserProvider';
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (<UserProvider>
+            <RouterProvider router={router} />
+          </UserProvider>
+    );
 };
 
 export default App;

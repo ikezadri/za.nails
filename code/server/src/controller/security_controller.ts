@@ -8,11 +8,15 @@ class SecurityController {
     public register = async (req: Request, res: Response) => {
         // hacher le mot de passe
         // await argon2.hash(req.body.password);
-        
+        // console.log(req.body);
+		
         const results = await new SecurityRepository().register({
             ...req.body,
             password: await argon2.hash(req.body.password),
         });
+
+		// console.log(results);
+		
         
         // si la requête SQL renvoie une erreur 
         if (results instanceof Error) {
@@ -50,8 +54,8 @@ class SecurityController {
 
 		// si l'utilisateur n'existe pas
 		if (!results) {
-			res.status(400).json({
-				status: 400,
+			res.status(403).json({
+				status: 403,
 				// afficher un simple message pour la production, sinon afficher l'erreur
 				message: process.env.NODE_ENV === "prod" ? "Error" : "User not exists",
 			});
@@ -69,8 +73,8 @@ class SecurityController {
 		);
 
 		if (!passwordVerify) {
-			res.status(400).json({
-				status: 400,
+			res.status(403).json({
+				status: 403,
 				// afficher un simple message pour la production, sinon afficher l'erreur
 				message:
 					process.env.NODE_ENV === "prod" ? "Error" : "Incorrect password",

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../../assets/css/nav.module.css";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
+import { UserContext } from "../../provider/UserProvider";
 
 const Nav = () => {
 	// les balises a sont remplacer par le composant Link
@@ -15,8 +16,16 @@ const Nav = () => {
 		setNavMobileIsVisible(!navMobileIsVisible);
 		// console.log(navMobileIsVisible);
 	};
+
+	// récupérer un utilisateur 
+	const { user, setUser } = useContext(UserContext);
+
+
 	return (
 		<>
+
+			{JSON.stringify(user)}
+
 			<nav
 				className={`${styles["site-nav"]} ${navMobileIsVisible ? styles["site-nav-visible"] : ""}`}
 				ref={siteNav}>
@@ -25,10 +34,23 @@ const Nav = () => {
 				<Link to={"/tarifs"}>Tarifs</Link>
 				<Link to={"/moncompte"}>Mon compte</Link>
 				<Link to={"/contact"}>Contact</Link>
-				<Link to={"/admin"}>Administration</Link>
-				<Link to={"/register"}>Register</Link>
-				<Link to={"/login"}>Login</Link>
 
+				{user.role?.name === "admin" ? (
+				<Link to={"/admin"}>Administration</Link>
+		) :null} 
+
+				{user.id ? (
+					<Link to={"/logout"}>Logout</Link>
+				) : (
+				<>
+					<Link to={"/register"}>Register</Link>
+					<Link to={"/login"}>Login</Link>
+				</>
+			)
+		}
+		
+				
+		
 			</nav>
 		
 			<div className={styles["site-logo"]}>

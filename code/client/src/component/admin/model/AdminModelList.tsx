@@ -33,7 +33,7 @@ const AdminModelList = () => {
 						<td>
 							<img src={`${import.meta.env.VITE_API_URL}/img/${model.image}`} alt="" />
 							</td>
-						<td>{model.type}</td>
+						<td>{model.image}</td>
 						<td>
 							<Link className="btn" to={`/admin/model/form/${model.id}`}>
 								Update
