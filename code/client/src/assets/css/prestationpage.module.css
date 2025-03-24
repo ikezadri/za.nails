@@ -1,0 +1,16 @@
+.mariage{
+    display:flex;
+    background: var(--vanille);
+    column-gap:3rem;
+    padding-right:3rem;
+        img{width:25vw;}
+        h1{
+           color: var(--bleu);
+           white-space: nowrap;
+         
+           font-size:3rem;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+         p{
+            padding-top:5rem;
+            position: absolute;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
