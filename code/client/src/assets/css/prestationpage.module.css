@@ -1,16 +1,44 @@
-.mariage{
-    display:flex;
-    background: var(--vanille);
-    column-gap:3rem;
-    padding-right:3rem;
-        img{width:25vw;}
-        h1{
-           color: var(--bleu);
-           white-space: nowrap;
-         
-           font-size:3rem;
-           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-         p{
-            padding-top:5rem;
-            position: absolute;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+.onglem{
+        display:flex;
+        background: var(--vanille);
+            img{
+                width:25vw;
+                position: relative;
+                left:10rem;
+                padding-top:1rem;}
+            h1{
+                color: var(--bleu);
+                left: 15rem;
+                font-size:3rem;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+            p{
+              padding-top:5rem;
+              position: absolute;
+              font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+
+.bboomer1{
+          display:flex;
+          background: var(--vanille);
+            img{
+                width:25vw;
+                position: relative;
+                right:35rem;
+                padding-top:5rem;}
+            p{
+              position:relative;
+              padding-top:5rem;
+              left:40rem;
+              font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+
+.fleur{
+        display:flex;
+        background: var(--vanille);
+            img{
+                width:25vw;
+                position: relative;
+                left:59rem;
+                padding-top:5rem;}
+            p{
+                padding-top:5rem;
+                position: absolute;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
