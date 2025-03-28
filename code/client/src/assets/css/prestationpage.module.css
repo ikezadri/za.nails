@@ -1,26 +1,32 @@
+h1{
+    color: var(--bleu);
+    padding-top:1rem;
+    /* left:10rem; */
+    font-size:3rem;
+    max-height:min-content;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    padding-bottom: 2.5rem;
+}
+
 .onglem{
         display:flex;
+        flex-direction: column;
         background: var(--vanille);
             img{
                 width:25vw;
-                position: relative;
-                left:5rem;
-                padding-top:5rem;}
-            h1{
-                color: var(--bleu);
-                padding-top:1rem;
-                left:10rem;
-                font-size:3rem;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                margin-right: 10rem;}
             p{
-              padding-top:8rem;
-              width:10rem;
-              left:25rem;
-              position: absolute;
+              width:25rem;
+              margin-left: 10rem;
+              align-self: center;
               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
 
+.ongle_article{
+                display: flex;
+                justify-content: space-between;}
+
 .bboomer1{
-          display:flex;
           background: var(--vanille);
             img{
                 width:25vw;
@@ -33,6 +39,10 @@
               padding-top:5rem;
               left:50rem;
               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+
+.bbomer_article{
+                display:flex;
+                justify-content:space-between;}
 
 .fleur{
         display:flex;

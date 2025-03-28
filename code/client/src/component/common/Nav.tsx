@@ -24,7 +24,7 @@ const Nav = () => {
 	return (
 		<>
 
-			{JSON.stringify(user)}
+		{user.id && `Bonjour, ${user.firstname || 'Utilisateur'}`}
 
 			<nav
 				className={`${styles["site-nav"]} ${navMobileIsVisible ? styles["site-nav-visible"] : ""}`}
@@ -32,19 +32,17 @@ const Nav = () => {
 				{/* <Link to={"/"}>Home</Link> */}
 				<Link to={"/prestation"}>Prestation</Link>
 				<Link to={"/tarifs"}>Tarifs</Link>
-				<Link to={"/moncompte"}>Mon compte</Link>
 				<Link to={"/contact"}>Contact</Link>
 
 				{user.role?.name === "admin" ? (
-				<Link to={"/admin"}>Administration</Link>
+				<Link to={"/admin"}>Admin</Link>
 		) :null} 
 
 				{user.id ? (
-					<Link to={"/logout"}>Logout</Link>
+					<Link to={"/logout"}>Déconnexion</Link>
 				) : (
 				<>
-					<Link to={"/register"}>Register</Link>
-					<Link to={"/login"}>Login</Link>
+					<Link to={"/moncompte"}>Mon compte</Link>	
 				</>
 			)
 		}
