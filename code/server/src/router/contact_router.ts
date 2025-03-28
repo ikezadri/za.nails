@@ -8,9 +8,9 @@ class ContactRouter{
     // méthodes
     public getRoutes = () => {
         this.router.get("/", new ContactController().index);
-
+        this.router.post("/", new ContactController().insert);
         return this.router;
-    }
+    };
 }
 
 export default ContactRouter;

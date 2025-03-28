@@ -1,5 +1,5 @@
 type Contact = {
-    _id: string;
+    id: string;
     email: string; 
     subject: string;
     message:string;

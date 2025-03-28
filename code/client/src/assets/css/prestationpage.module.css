@@ -4,15 +4,18 @@
             img{
                 width:25vw;
                 position: relative;
-                left:10rem;
-                padding-top:1rem;}
+                left:5rem;
+                padding-top:5rem;}
             h1{
                 color: var(--bleu);
-                left: 15rem;
+                padding-top:1rem;
+                left:10rem;
                 font-size:3rem;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
             p{
-              padding-top:5rem;
+              padding-top:8rem;
+              width:10rem;
+              left:25rem;
               position: absolute;
               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
 
@@ -22,12 +25,13 @@
             img{
                 width:25vw;
                 position: relative;
-                right:35rem;
+                left:5rem;
                 padding-top:5rem;}
             p{
               position:relative;
+              width:5rem;
               padding-top:5rem;
-              left:40rem;
+              left:50rem;
               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
 
 .fleur{
@@ -36,9 +40,11 @@
             img{
                 width:25vw;
                 position: relative;
-                left:59rem;
+                left:55rem;
                 padding-top:5rem;}
             p{
                 padding-top:5rem;
+                width:10rem;
+                left: 15rem;
                 position: absolute;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
