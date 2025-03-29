@@ -1,23 +1,30 @@
-.fond{background: var(--vanille);}
+h1{
+   color: var(--bleu);
+   padding-top:1rem;
+   margin-left:55rem;
+   position: relative;
+   top:9rem;
+   right:5rem;
+   font-size:3rem;
+   max-height:min-content;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-self: center;}
 
 .nailsart{
-    display:flex;
-    background: var(--vanille);
-    column-gap:3rem;
-    padding:3rem;
-        img{width:50vw;}
-        h1{
-           color: var(--bleu);
-           white-space: nowrap;
-           position: static;
-           font-size:3rem;
-           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-         p{
-            position: relative;
-            padding-top:5rem;
-            right:35rem;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            }}
+        display:flex;
+        flex-direction: column;
+        background: var(--vanille);
+                img{width:50vw; margin-left:3rem;}
+                p{
+                  width:25rem;
+                  margin-left:55rem;
+                  position: relative;
+                  bottom:19rem;
+                  right:5rem;
+                  align-self: center;
+                  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+
+.nailart_article{display: flex; justify-content: space-between;}
 
 .babyboomer2{
         width:25vw;

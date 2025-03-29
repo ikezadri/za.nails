@@ -10,18 +10,20 @@ const HomePage = () => {
 			<Notice />
 			<RolesList />
 
-			<section className="fond">
-				<div className={styles.nailsart}>
-					{/* utiliser / pour cibler le dossier public */}
-					<img src="/img/nails-artist.png" alt="" />
+			<main>
+				<section className={styles.nailsart}>
 					<h1>Bienvenue sur mon site !</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-							sunt, suscipit libero repellendus mollitia numquam vitae ullam vel
-							nemo culpa at necessitatibus explicabo, dolores autem consectetur
-							animi adipisci eveniet natus!
-						</p>
-				</div>
+					<article className={styles.nailsart_article}>
+					{/* utiliser / pour cibler le dossier public */}
+						<img src="/img/nails-artist.png" alt="" />
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+									sunt, suscipit libero repellendus mollitia numquam vitae ullam vel
+									nemo culpa at necessitatibus explicabo, dolores autem consectetur
+									animi adipisci eveniet natus!
+								</p>
+					</article>
+				</section>
 
 				<section className={styles.imgcontainer}>
 					<div className={styles.babyboomer2}>
@@ -36,7 +38,7 @@ const HomePage = () => {
 						<img src="/img/serpent.png" alt="" />
 					</div>
 				</section>
-			</section>
+			</main>
 		</>
 	);
 };

@@ -6,7 +6,7 @@ const PrestationPage = () => {
 		<>
 		<main>
 			<section className={styles.onglem}>
-						<h1>Je sais pas quoi mettre pour l'instant</h1>
+						<h1>Exprimez votre style jusqu’au bout des ongles !</h1>
 						<article className={styles.ongle_article}>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
@@ -20,25 +20,26 @@ const PrestationPage = () => {
 
 			<section className={styles.bboomer1}>
 					<article className={styles.bbomer_article}>
-							<p>
+							<img src="/img/babyboomer1.jpg" alt="" />
+								<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
 								sunt, suscipit liberoLorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
 								sunt, suscipit liberoLorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-								
 							</p>
-								<img src="/img/babyboomer1.jpg" alt="" />
 					</article>
 			</section>
 
 			<section className={styles.fleur}>
+					<article className={styles.fleur_article}>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
 								sunt, suscipit liberoLorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
 								sunt, suscipit liberoLorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
 							</p>
 								<img src="/img/fleur.jpg" alt="" />
+					</article>
 			</section>
-			</main>
+		</main>
 		</>
 		
 	);
