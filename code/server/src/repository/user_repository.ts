@@ -110,7 +110,7 @@ class UserRepository {
 				:email,
 				:phonenumber,
 				:password,
-				:roles_id
+				:role_id
 				)
 			;
         `;

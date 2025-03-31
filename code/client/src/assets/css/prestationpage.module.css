@@ -47,3 +47,36 @@ h1{
 
 .fleur_article{display:flex; justify-content:space-between;}
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .onglem, .bboomer1, .fleur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--vanille);
+        padding: 1rem;
+    }
+
+    .onglem img, .bboomer1 img, .fleur img {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .onglem p, .bboomer1 p, .fleur p {
+        width: 80%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .ongle_article, .bbomer_article, .fleur_article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

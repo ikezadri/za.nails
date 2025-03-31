@@ -17,9 +17,9 @@ const Header = () => {
 					/>
 				</Link>
 			</div>
-			<button className={styles["btn-nav-mobile"]} type="button">
+			{/* <button className={styles["btn-nav-mobile"]} type="button">
 				Reservation
-			</button>
+			</button> */}
 			<Nav />
 		</header>
 	);

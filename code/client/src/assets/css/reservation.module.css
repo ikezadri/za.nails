@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: var(--bleu);
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color:var(--marronf);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .field {
+    margin-bottom: 20px;
+  }
+
+  .field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color:var(--marronf);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .field input,
+  .field select,
+  .field textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+  .field select {
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .field textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .field input:focus,
+  .field select:focus,
+  .field textarea:focus {
+    outline: none;
+    border-color: #7b68ee;
+    box-shadow: 0 0 0 2px rgba(123, 104, 238, 0.2);
+  }
+
+  .submitButton {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: var(--vanille);
+    color: var(--marronf);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .submitButton:hover {
+    background-color: var(--marronc);
+    color:var(--marronf);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+  }

@@ -11,10 +11,5 @@
           font-size:medium; 
           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}} 
 
-.logo-jsp{
-    scale:50%;
-    position:relative;
-    left:-60px;}
-
-.btn-nav-mobile{display:none;}
+.logo-jsp{scale:50%; position:relative; left:-60px;}
 

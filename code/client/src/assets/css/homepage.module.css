@@ -41,3 +41,49 @@
         padding-top:3rem;
         padding-bottom:3rem;}
 
+
+        @media screen and (max-width: 768px) {
+                .nailsart {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: var(--vanille);
+                    padding: 1rem;
+                }
+            
+                .nailsart img {
+                    width:80vw;
+                    margin-left:0;
+                }
+            
+                .nailsart p {
+                    width: 80%;
+                    margin: 1rem 0;
+                    position: static;
+                    text-align: center;
+                }
+            
+                .nailart_article {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            
+                .babyboomer2,
+                .cerise,
+                .serpent {
+                    width: 80vw;
+                    padding-top: 1rem;
+                    position: static;
+                    z-index: auto;
+                }
+            
+                .imgcontainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: var(--vanille);
+                    padding: 2rem 0;
+                }
+            }
+            

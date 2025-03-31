@@ -47,8 +47,6 @@ const Nav = () => {
 			)
 		}
 		
-				
-		
 			</nav>
 		
 			<div className={styles["site-logo"]}>

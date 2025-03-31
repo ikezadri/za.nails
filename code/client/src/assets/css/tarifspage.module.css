@@ -66,3 +66,65 @@
 .deuxieme:hover{transform: scale(1.05); transition: transform 0.3s ease;}
 
 .troisieme:hover{transform: scale(1.05); transition: transform 0.3s ease;}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .onglem, .bboomer1, .fleur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--vanille);
+        padding: 1rem;
+    }
+
+    .onglem img, .bboomer1 img, .fleur img {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .onglem p, .bboomer1 p, .fleur p {
+        width: 80%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .ongle_article, .bbomer_article, .fleur_article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prix {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .premier, .deuxieme, .troisieme {
+        width: 80vw;
+        padding: 1.5rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .lien {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 1rem;
+        padding-top: 2rem;
+    }
+
+    /* Suppression des effets hover */
+    .premier:hover, .deuxieme:hover, .troisieme:hover {
+        transform: none;
+        transition: none;
+    }
+}
+

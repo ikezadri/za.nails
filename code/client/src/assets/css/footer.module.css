@@ -10,7 +10,19 @@
           font-size:large; 
           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}  
 
- @media screen and (max-width:50rem){
-    .site-footer{
-        display:flex;
-        height:3rem;}}
+@media screen and (max-width: 48rem) {
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        column-gap: 0.5rem;
+        align-items: center;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .site-footer a:not(:last-child)::after {
+        content: none;
+    }
+}
