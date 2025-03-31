@@ -7,9 +7,6 @@ class SecurityRepository {
 
 	// enregristrer un utilisateur 
 	public register = async (data:Partial<User>): Promise<User | unknown>=>  {
-
-	
-		
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
 		// requête SQL
@@ -28,7 +25,6 @@ class SecurityRepository {
 				)
             ;
         `;
-		
 
 		//  exécuter la requête
 		// try / catch : permet d'exécuter une instruction, si l'instruction échoue, une erreur est recupérée

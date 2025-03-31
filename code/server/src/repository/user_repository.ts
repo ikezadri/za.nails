@@ -24,6 +24,10 @@ class UserRepository {
                 ${this.table}.*
             FROM
                 ${process.env.MYSQL_DATABASE}.${this.table}
+			LEFT JOIN
+				${process.env.MYSQL_DATABASE}.role
+			ON 
+				role.id = ${this.table}.role_id
             ;
         `;
 		
@@ -36,11 +40,9 @@ class UserRepository {
 
 			const result = (results as User[]).shift() as User;
 
-			
-
 			for(let i = 0; i < (results as User[]).length; i++){
 				const result = (results as User[])[i];
-				// console.log(result);
+				//  console.log(result);
 				result.role = (await new RolesRepository().selectOne({
 					id: result.role_id,
 				})) as Role;

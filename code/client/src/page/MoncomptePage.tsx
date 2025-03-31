@@ -120,7 +120,7 @@ const MoncomptePage = () => {
                             id="password"
                             {...registerLogin("password", {
                                 required: "Mot de passe requis",
-                                minLength: { value: 8, message: "Minimum 8 caractères" },
+                                minLength: { value: 4, message: "Minimum 4 caractères" },
                             })}
                         />
                         <small>{loginErrors.password?.message}</small>

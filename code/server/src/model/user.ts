@@ -1,4 +1,4 @@
-import Role from "./role.js";
+import type Role from "./role.js";
 
 type User = {
     id: number;
@@ -9,6 +9,8 @@ type User = {
     password: string;
     role_id: number;
     role: Role;
+    // partie aléatoire de la clé de décryptage
+    key: string;
 };
 
 export default User;

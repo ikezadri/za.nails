@@ -1,15 +1,3 @@
-h1{
-   color: var(--bleu);
-   padding-top:1rem;
-   margin-left:55rem;
-   position: relative;
-   top:9rem;
-   right:5rem;
-   font-size:3rem;
-   max-height:min-content;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   align-self: center;}
-
 .nailsart{
         display:flex;
         flex-direction: column;
