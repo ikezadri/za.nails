@@ -61,7 +61,7 @@ class UserController {
         // json: formater une réponse en JSON
         res.status(201).json({
             status: 201,
-            message: "linda",
+            message: "Utilisateur inscrit",
             data: results
         });
         return;
