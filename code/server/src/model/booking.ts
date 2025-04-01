@@ -1,4 +1,4 @@
-import Type from "./type.js";
+import type Type from "./type.js";
 
 type Booking = {
 	id: number;

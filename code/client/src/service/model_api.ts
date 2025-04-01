@@ -40,12 +40,13 @@ class ModelAPI {
         return response.json();
     };
 
-    public update = async (data:FormData) => {
+    public update = async (data:FormData, token: string) => {
         // configurer la requete HTTP
         const request = new Request(`${import.meta.env.VITE_API_URL}/${this.route}`, 
         {
           method: "PUT",
-          body: data
+          headers:{Authorization: `Bearer ${token}`},
+          body: data,
         });
         //éxecuter la requete
         const response = await fetch(request);
@@ -57,19 +58,18 @@ class ModelAPI {
         return response.json();
     };
 
-    public delete = async (data:FormData) => {
+    public delete = async (data:FormData, token: string) => {
         // configurer la requete HTTP
         const request = new Request(`${import.meta.env.VITE_API_URL}/${this.route}`, 
         {
           method: "DELETE",
+          headers:{Authorization: `Bearer ${token}`},
           body: data
         });
         //éxecuter la requete
         const response = await fetch(request);
 
         // récuperer la réponse
-
-
         // renvoyer les résultats de la réponse
         return response.json();
     };

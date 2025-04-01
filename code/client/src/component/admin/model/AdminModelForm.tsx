@@ -74,7 +74,7 @@ const AdminModelForm = () => {
 
 		// requête HTTP
 		const request = id
-			? await new ModelAPI().update(formData)
+			? await new ModelAPI().update(formData, auth.data.token)
 			: await new ModelAPI().insert(formData, auth.data.token);
 		// console.log(request);
 

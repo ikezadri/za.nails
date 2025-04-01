@@ -1,4 +1,4 @@
-import User from "./user.js";
+import type User from "./user.js";
 
 type Commentary = {
     id: number;

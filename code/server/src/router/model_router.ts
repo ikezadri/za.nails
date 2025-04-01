@@ -18,13 +18,14 @@ class ModelRouter {
 		this.router.get("/:id", new ModelController().one);
 		this.router.post(
 			"/",
-			// new AuthorizationMiddleware().check(["admin"]),
+			new AuthorizationMiddleware().check(["admin"]),
 			this.upload.any(),
 			new ModelFileMiddleware().process,
 			new ModelController().insert,
 		);
 		this.router.put(
 			"/",
+			new AuthorizationMiddleware().check(["admin"]),
 			new ModelFileMiddleware().process,
 			this.upload.any(),
 			new ModelController().update,
@@ -32,6 +33,7 @@ class ModelRouter {
 		this.router.delete(
 			"/",
 			this.upload.any(),
+			new AuthorizationMiddleware().check(["admin"]),
 			new ModelFileMiddleware().process,
 			new ModelController().delete,
 		);

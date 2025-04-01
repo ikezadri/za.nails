@@ -172,11 +172,11 @@ class ModelRepository {
 		const connection = await new MySQLService().connect();
 		// requête SQL
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
-		let sql = `
+		const sql = `
 			DELETE FROM
 				${process.env.MYSQL_DATABASE}.type_model
 			WHERE
-				type_model.model_id = :id
+				type_model.model_ids = :id
 			;
         `;
 		//  exécuter la requête
