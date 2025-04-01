@@ -2,7 +2,7 @@ type Model = {
     id: string;
     name: string;
     image: string;
-    types_id: string
+    type_ids: string
 };
 
 export default Model;

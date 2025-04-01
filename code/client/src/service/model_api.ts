@@ -26,17 +26,15 @@ class ModelAPI {
         return response.json();
     };
     
-    public insert = async (data:FormData) => {
+    public insert = async (data:FormData, token: string) => {
         // configurer la requete HTTP
-        const request = new Request(`${import.meta.env.VITE_API_URL}/${this.route}`, {
+        const request = new Request(`${import.meta.env.VITE_API_URL}/${this.route}`,{
           method: "POST",
-          body: data
+          headers: {Authorization: `Bearer ${token}`},
+          body: data,
         });
         //éxecuter la requete
         const response = await fetch(request);
-
-        // récuperer la réponse
-
 
         // renvoyer les résultats de la réponse
         return response.json();
