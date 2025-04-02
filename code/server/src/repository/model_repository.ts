@@ -1,6 +1,7 @@
 import { log } from "node:console";
 import type Model from "../model/model.js";
 import MySQLService from "../service/mysql_service.js";
+import { throws } from "node:assert";
 
 class ModelRepository {
 	// nom de la table en SQL
@@ -142,7 +143,8 @@ class ModelRepository {
 				${process.env.MYSQL_DATABASE}.${this.table}
 			SET 
 				${this.table}.name = :name,
-				${this.table}.image = :image
+				${this.table}.image = :image,
+				${this.table}.type_ids = :type_ids,
 			WHERE
 				${this.table}.id = :id
 			;
@@ -172,11 +174,11 @@ class ModelRepository {
 		const connection = await new MySQLService().connect();
 		// requête SQL
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
-		const sql = `
+		let sql = `
 			DELETE FROM
 				${process.env.MYSQL_DATABASE}.type_model
 			WHERE
-				type_model.model_ids = :id
+				type_model.model_id = :id
 			;
         `;
 		//  exécuter la requête
@@ -185,15 +187,15 @@ class ModelRepository {
 			connection.beginTransaction();
 			// récuperation des résultats de la requête
 			// results représente le premier indice d'un array envoyer
-			// await connection.execute(sql, data);
+			await connection.execute(sql, data);
 
-			// sql = `
-			// 	DELETE FROM
-			// 		${process.env.MYSQL_DATABASE}.${this.table}
-			// 	WHERE
-			// 		${this.table}.id = :id
-			// 	;
-			// `;
+			sql = `
+				DELETE FROM
+					${process.env.MYSQL_DATABASE}.${this.table}
+				WHERE
+					${this.table}.id = :id
+				;
+			`;
 
 			const [results] = await connection.execute(sql, data);
 

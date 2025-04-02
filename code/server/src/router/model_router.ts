@@ -2,7 +2,7 @@ import express, { type Request, type Response } from "express";
 import ModelController from "../controller/model_controller.js";
 import multer from "multer";
 import ModelFileMiddleware from "../middleware/model_file_middleware.js";
-import AuthorizationMiddleware from "../middleware/authorization_middlewara.js";
+import AuthorizationMiddleware from "../middleware/authorization_middleware.js";
 
 class ModelRouter {
 	// propiétés
@@ -26,15 +26,14 @@ class ModelRouter {
 		this.router.put(
 			"/",
 			new AuthorizationMiddleware().check(["admin"]),
-			new ModelFileMiddleware().process,
 			this.upload.any(),
+			new ModelFileMiddleware().process,
 			new ModelController().update,
 		);
 		this.router.delete(
 			"/",
-			this.upload.any(),
 			new AuthorizationMiddleware().check(["admin"]),
-			new ModelFileMiddleware().process,
+			this.upload.any(),
 			new ModelController().delete,
 		);
 
