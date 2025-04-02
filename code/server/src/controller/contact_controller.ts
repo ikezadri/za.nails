@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import ContactRepository from "../repository/contact_repository.js";
+import ContactRepository from "../repository/contact.repository.js";
 
 class ContactController {
 	// récuperer tous les documents

@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import TypesRepository from "../repository/types_repository.js";
+import TypesRepository from "../repository/type_repository.js";
 
 class TypesController {
     public index = async (req: Request, res: Response) => {

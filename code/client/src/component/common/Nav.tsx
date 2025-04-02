@@ -46,9 +46,9 @@ const Nav = () => {
 				</>
 			)
 		}
-		
 			</nav>
 		
+			{user.role?.name === "user" ? (
 			<div className={styles["site-logo"]}>
             {/* utiliser / pour cibler le dossier public */}
 			
@@ -60,7 +60,7 @@ const Nav = () => {
 
             </Link>
         </div>
-
+			) :null}
 			<button
 				className={styles["btn-nav-mobile"]}
 				type="button"

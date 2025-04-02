@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import RolesRepository from "../repository/roles_repository.js";
+import RolesRepository from "../repository/role_repository.js";
 
 class HomepageController {
     public index = async (req: Request, res: Response) => {

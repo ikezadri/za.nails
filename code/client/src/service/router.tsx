@@ -44,7 +44,10 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/reservation",
-				element: <ReservationPage />,
+				element: 
+					<Guard role={['admin', 'user']}>
+						<ReservationPage />
+					</Guard>,
 			},
 			{
 				path: "/register",
