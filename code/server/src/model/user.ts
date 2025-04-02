@@ -5,7 +5,7 @@ type User = {
     firstname: string;
     lastname: string;
     email: string;
-    phone_number: number;
+    phone_number: string;
     password: string;
     role_id: number;
     role: Role;
