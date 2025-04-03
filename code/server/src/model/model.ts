@@ -5,7 +5,7 @@ type Model = {
     name: string;
     image: string;
     type_ids: string;
-    types: Type[];
+    type: Type[];
 };
 
 export default Model;

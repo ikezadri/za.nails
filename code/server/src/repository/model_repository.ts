@@ -2,6 +2,8 @@ import { log } from "node:console";
 import type Model from "../model/model.js";
 import MySQLService from "../service/mysql_service.js";
 import { throws } from "node:assert";
+import TypesRepository from "./type_repository.js";
+import Type from "../model/type.js";
 
 class ModelRepository {
 	// nom de la table en SQL
@@ -19,9 +21,14 @@ class ModelRepository {
 		// requête SQL
 		const sql = `
             SELECT 
-                ${this.table}.*
+                ${this.table}.*,
+				GROUP_CONCAT(DISTINCT type.id) AS type_ids
             FROM
                 ${process.env.MYSQL_DATABASE}.${this.table}
+			LEFT JOIN 
+				${process.env.MYSQL_DATABASE}.type_model
+			ON
+				type_model.type_id= ${this.table}.id
             ;
         `;
 		//  exécuter la requête
@@ -29,6 +36,17 @@ class ModelRepository {
 		try {
 			// récuperation des résultats de la requête
 			const [results] = await connection.execute(sql);
+			for (let i = 0; i < (results as Model[]).length; i ++){
+				const result = (results as Model[])[i];
+
+				result.type = (await new TypesRepository().selectInList(
+					result.type_ids,
+				)) as Type[];
+			}
+
+
+
+
 			return results;
 		} catch (error) {
 			// si la requête à échouer
