@@ -37,4 +37,9 @@ jobs:
                     cd code/server/mysql
                     mysql -uroot -proot -e 'SOURCE script.test.sql;'
                     mysql -uroot -proot -e 'SHOW DATABASES;'
+            -
+                name: Except tests
+                run: |
+                    cd code/server
+                    npm run test
                     
