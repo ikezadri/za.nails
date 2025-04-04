@@ -56,36 +56,36 @@ CREATE TABLE za_nails_test.type_model(
 
 -- vréer des enregistrements 
 -- commencer par les tables n'ayant pas de clés étrangères
-INSERT INTO za_nails_dev.role
+INSERT INTO za_nails_test.role
 VALUES 
 -- pour la PK, utiliser NULL pour l'auto-incrémentation 
     (NULL, 'admin'),
     (NULL, 'user');
 
 -- mdp : admin / user / user2
-INSERT INTO za_nails_dev.user
+INSERT INTO za_nails_test.user
 VALUES
     (NULL,'Inès','Kezadri','inxsdk@gmail.com','0635784195','$argon2i$v=19$m=16,t=2,p=1$R2pyV3U3RUNoMlVFeEs1dw$sTwZiFOH5Q5L4DHn0eNwtA',1),
     (NULL, 'Linda','Florella','lindaflorella@gmail.com','0784596321','$argon2i$v=19$m=16,t=2,p=1$U3lsSXFCWXNNV0VOQ2czYQ$QSArdltwoAy+CidNTVQzsw',2),
     (NULL, 'Abdelhamid','Kezadri','a.kezadri@gmail.com','0789654123','$argon2i$v=19$m=16,t=2,p=1$WnlJdTVEbHRDaXJrTjFobw$FcggMJan/nAT/vwXodQpIg',2);
 
-INSERT INTO za_nails_dev.commentary
+INSERT INTO za_nails_test.commentary
 VALUES
     (NULL, 'je sais pas','jadore la lean','2024-11-24', 1),
     (NULL, 'prout','linda je taime', '1996-12-28', 2);
 
-INSERT INTO za_nails_dev.type
+INSERT INTO za_nails_test.type
 VALUES
     (NULL, 'capsule'),
     (NULL, 'ongles');
 
 
-INSERT INTO za_nails_dev.booking
+INSERT INTO za_nails_test.booking
 VALUES
     (NULL,'2025-12-04', 1),
     (NULL,'2024-05-20', 2);
 
-INSERT INTO za_nails_dev.model
+INSERT INTO za_nails_test.model
 VALUES
     (NULL,'Juju','model1.jpg'),
     (NULL, 'Linda','model2.jpg'),
@@ -93,7 +93,7 @@ VALUES
 
 
 -- -- modifier des enregistrements
--- -- UPDATE za_nails_dev.roles
+-- -- UPDATE za_nails_test.roles
 -- -- -- SET = permet de cibler les colonnes à mettre à jour, et leurs affecter une nouvelle valeur
 -- -- SET 
 -- --     roles.name = 'linda'
@@ -102,7 +102,7 @@ VALUES
 -- --     roles.id = 1;
 
 -- -- -- supprimer un enregistrement 
--- -- DELETE FROM za_nails_dev.roles
+-- -- DELETE FROM za_nails_test.roles
 -- -- WHERE 
 -- --     roles.id = 3;
 
