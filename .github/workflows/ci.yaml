@@ -16,6 +16,11 @@ jobs:
                     cd code/server
                     npm ci
             -
+                name: Install client dependencies
+                run: |
+                    cd code/client
+                    npm ci
+            -
                 name: Compile server TypeScript files
                 run: |
                     cd code/server
