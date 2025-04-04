@@ -1,0 +1,15 @@
+name: za.nails CI
+
+on:
+    workflow_dispatch
+
+jobs:
+    Execute_my_CI:
+        runs-on: ubuntu-latest
+        steps:
+            - 
+                run: |
+                    ls
+                    mkdir test
+                    cd test
+                    touch index.html
