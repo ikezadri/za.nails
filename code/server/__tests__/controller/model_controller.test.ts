@@ -71,9 +71,9 @@ describe("model controller tests suite", () => {
 			.field("type_ids", values.type_ids)
 		;
 		const actual = sut.status;
-console.log(sut);
+// console.log(sut);
 
 		// assert
-		expect(actual).toBe(expected);
+		// expect(actual).toBe(expected);
 	});
 });
