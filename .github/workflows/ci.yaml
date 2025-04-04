@@ -1,7 +1,8 @@
 name: za.nails CI
 
 on:
-    workflow_dispatch
+    push:
+        branches: ['master']
 
 jobs:
     Execute_my_CI:
