@@ -3,7 +3,7 @@ import type Model from "../model/model.js";
 import MySQLService from "../service/mysql_service.js";
 import { throws } from "node:assert";
 import TypesRepository from "./type_repository.js";
-import Type from "../model/type.js";
+import type Type from "../model/type.js";
 
 class ModelRepository {
 	// nom de la table en SQL
@@ -17,7 +17,7 @@ class ModelRepository {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
 		// console.log(connection);
-		
+
 		// requête SQL
 		const sql = `
             SELECT 
@@ -25,10 +25,16 @@ class ModelRepository {
 				GROUP_CONCAT(DISTINCT type.id) AS type_ids
             FROM
                 ${process.env.MYSQL_DATABASE}.${this.table}
-			LEFT JOIN 
-				${process.env.MYSQL_DATABASE}.type_model
+			JOIN
+				 ${process.env.MYSQL_DATABASE}.type
+			JOIN
+				 ${process.env.MYSQL_DATABASE}.type_model
 			ON
-				type_model.type_id= ${this.table}.id
+				type_model.model_id = ${this.table}.id
+			AND
+				type_model.type_id = type.id	
+			GROUP BY
+				${this.table}.id
             ;
         `;
 		//  exécuter la requête
@@ -36,16 +42,13 @@ class ModelRepository {
 		try {
 			// récuperation des résultats de la requête
 			const [results] = await connection.execute(sql);
-			for (let i = 0; i < (results as Model[]).length; i ++){
+			for (let i = 0; i < (results as Model[]).length; i++) {
 				const result = (results as Model[])[i];
 
 				result.type = (await new TypesRepository().selectInList(
 					result.type_ids,
 				)) as Type[];
 			}
-
-
-
 
 			return results;
 		} catch (error) {
@@ -153,7 +156,7 @@ class ModelRepository {
 	public update = async (data: Partial<Model>): Promise<Model | unknown> => {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
-		
+
 		// requête SQL
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
 		const sql = `

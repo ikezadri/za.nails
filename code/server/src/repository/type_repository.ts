@@ -72,22 +72,11 @@ class TypesRepository {
         // Requête SQL
         const sql = `
             SELECT
-                ${this.table}.* ,
-                GROUP_CONCAT(DISTINCT model_type.id_instrumental) AS model_ids
+                ${this.table}.*
             FROM
                 ${process.env.MYSQL_DATABASE}.${this.table}
-            LEFT JOIN
-                ${process.env.MYSQL_DATABASE}.model_type
-            ON
-                model_type.type_ids = ${this.table}.id
-            LEFT JOIN
-                ${process.env.MYSQL_DATABASE}.model
-            ON
-                instrumental_type.id_model = model.id
             WHERE
                 ${this.table}.id IN (${list})
-            GROUP BY
-                ${this.table}.id
             ;
         `;
 
@@ -97,25 +86,6 @@ class TypesRepository {
             // Récupérer les resultats de la requete
             // results représente le premier indice du array renvoyé
             const [results] = await connection.execute(sql);
-
-            // Boucler sur les résultats
-            for (let i = 0; i < (results as Type[]).length; i++) {
-                const result = (results as Type[])[i];
-
-                // Composition permet d'associer la propriété d'un objet à un autre objet
-                if (result.model_ids) {
-                    result.models = (await new ModelRepository().selectOne({
-                        id: result.model_ids,
-                    })) as Model;
-                }
-
-                // Ajout des instrumentals
-                if (result.type_ids) {
-                    result.type = (await new TypesRepository().selectInList(
-                        result.type_ids
-                    )) as Type[];
-                }
-            }
 
             // Si la requête à réussi
             return results;
