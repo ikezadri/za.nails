@@ -20,3 +20,8 @@ jobs:
                 run: |
                     cd code/server
                     npm run compile
+            -
+                name: Compile client TypeScript files
+                run: |
+                    cd code/client
+                    npm run build
