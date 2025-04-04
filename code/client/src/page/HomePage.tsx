@@ -1,5 +1,5 @@
 // import { Link } from "react-router-dom";
-import RolesList from "../component/home/RolesList";
+
 import styles from "../assets/css/homepage.module.css";
 import Notice from "../component/common/Notice";
 
@@ -7,8 +7,7 @@ const HomePage = () => {
 	//    fragment : balise sans nom (anonyme) = <> </>
 	return (
 		<>
-			<Notice />
-			<RolesList />
+			<Notice />		
 
 			<main>
 				<section className={styles.nailsart}>

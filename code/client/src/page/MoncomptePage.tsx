@@ -28,10 +28,6 @@ const MoncomptePage = () => {
         formState: { errors: registerErrors },
     } = useForm<User>();
 
-    const toggleForm = () => {
-        setIsLogin(!isLogin);
-        setMessage(undefined); // Réinitialiser le message lors du changement de formulaire
-    };
 
     // Fonction de soumission pour la connexion
     const onLoginSubmit = async (values: User) => {

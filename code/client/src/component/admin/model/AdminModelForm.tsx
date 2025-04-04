@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
 import type Model from "../../../model/model";
 import ModelAPI from "../../../service/model_api";
-import { useContext, useEffect, useState } from "react";
-import type Types from "../../../model/types";
+import { useContext, useEffect } from "react";
 // import TypeAPI from "../../../service/type_api";
 import TypesAPI from "../../../service/types_api";
 import { useNavigate, useParams } from "react-router-dom";
@@ -22,14 +21,14 @@ const AdminModelForm = () => {
 		reset,
 	} = useForm<Model>();
 
-	const [types, setTypes] = useState<Types[]>();
+	// const [types, setTypes] = useState<Types[]>([]);
 
 	const navigate = useNavigate();
 
 	// récuperer l'id de l'URL
 	const { id } = useParams();
 
-	const { user, setUser } = useContext(UserContext);
+	const { user } = useContext(UserContext);
 
 	useEffect(() => {
 		Promise.allSettled([
@@ -37,14 +36,14 @@ const AdminModelForm = () => {
 			id ? new ModelAPI().selectOne(id as unknown as number) : null,
 		]).then((responses) => {
 			if (responses[0].status === "fulfilled") {
-				setTypes(responses[0].value.data);
-				if (id && responses[1].status === "fulfilled") {
-					// console.log(responses[1]);
-					reset({
-						...responses[1].value.data,
-						type_id: responses[1].value.data.type_id.split(","),
-					});
-				}
+				// setTypes(responses[0].value.data);
+			}
+			if (id && responses[1].status === "fulfilled") {
+				// console.log(responses[1]);
+				reset({
+					...responses[1].value.data,
+					type_id: responses[1].value.data.type_id.split(","),
+				});
 			}
 		});
 	}, [id, reset]);

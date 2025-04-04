@@ -1,6 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // import UserAPI from "../../service/user_api";
 // import RolesAPI from "../../service/roles_api";
 import type User from "../../model/user";
@@ -19,9 +18,6 @@ const RegisterForm = () => {
 		formState: { errors }
 	} = useForm<User>();
 
-	const [user, setUser] = useState<User[]>();
-
-	const navigate = useNavigate();
 
 	// récuperer l'id de l'URL
 	const { id } = useParams();

@@ -18,7 +18,7 @@ const Nav = () => {
 	};
 
 	// récupérer un utilisateur 
-	const { user, setUser } = useContext(UserContext);
+	const { user } = useContext(UserContext);
 
 
 	return (

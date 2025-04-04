@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import type User from "../../model/user";
 import SecurityAPI from "../../service/security_api";
@@ -25,7 +25,7 @@ const LoginForm = () => {
     const [message, setMessage] = useState<string>();
 
 	//  importer le contexte
-	const { user, setUser } = useContext(UserContext);
+	const { setUser } = useContext(UserContext);
 
     const OnSubmit = async (values: User) => {
         // console.log(values);
