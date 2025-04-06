@@ -23,9 +23,7 @@ const Nav = () => {
 
 	return (
 		<>
-
-		{user.id && `Bonjour, ${user.firstname || 'Utilisateur'}`}
-
+				{user.id && `Bonjour, ${user.firstname || 'Utilisateur'}`}
 			<nav
 				className={`${styles["site-nav"]} ${navMobileIsVisible ? styles["site-nav-visible"] : ""}`}
 				ref={siteNav}>

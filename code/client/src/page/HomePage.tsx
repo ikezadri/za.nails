@@ -16,10 +16,8 @@ const HomePage = () => {
 					{/* utiliser / pour cibler le dossier public */}
 						<img src="/img/nails-artist.png" alt="" />
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-									sunt, suscipit libero repellendus mollitia numquam vitae ullam vel
-									nemo culpa at necessitatibus explicabo, dolores autem consectetur
-									animi adipisci eveniet natus!
+								Offrez à vos mains l’attention qu’elles méritent. 
+								Ici, chaque détail compte pour révéler votre élégance naturelle. Découvrez un univers dédié à la détente, à la créativité et au soin, où votre satisfaction est notre priorité.
 								</p>
 					</article>
 				</section>

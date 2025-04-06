@@ -87,7 +87,7 @@ const AdminModelForm = () => {
 	return (
 		<form onSubmit={handleSubmit(onSubmitModel)} encType="multipart/form-data">
 			<p>
-				<label htmlFor="name">Name:</label>
+				<label htmlFor="name">Nom:</label>
 				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
 				<input
 					type="text"
@@ -103,7 +103,7 @@ const AdminModelForm = () => {
 			</p>
 
 			<p>
-				<label htmlFor="image">Image:</label>
+				<label htmlFor="image">Modèle:</label>
 				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
 				<input
 					type="file"
@@ -112,7 +112,7 @@ const AdminModelForm = () => {
 						id
 							? {}
 							: {
-									required: "Model requis",
+									required: "Modèle requis",
 								},
 					)}
 				/>
@@ -120,7 +120,7 @@ const AdminModelForm = () => {
 			</p>
 
 			<p>
-				<label htmlFor="type_ids">Type ids:</label>
+				<label htmlFor="type_ids">Type:</label>
 				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
 				<input
 					type="checkbox"

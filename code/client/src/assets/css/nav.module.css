@@ -1,9 +1,10 @@
 .btn-nav-mobile{display:none;}
 
 .site-nav{
-    display:block; 
     display: flex;
-   column-gap: 5rem;}
+    position: relative;
+    right:3rem;
+    column-gap: 5rem;}
 
 .btn-rdv{
     color:var(--vanille);
@@ -24,7 +25,7 @@
     
         .site-nav{display:none;}
     
-        .btn-rdv{display:none;}
+        .btn-rdv{display:none;} 
     
         .site-nav-visible{
             display:flex;

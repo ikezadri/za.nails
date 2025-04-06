@@ -22,7 +22,7 @@ const AdminModelDeletePage = () => {
 			// console.log(authResponse.data.token);
 
 			new ModelAPI().delete(formData, authResponse.data.token).then(() => {
-				window.sessionStorage.setItem("notice", "Model deleted");
+				window.sessionStorage.setItem("notice", "Modèle supprimé avec succès");
 
 				// redirection
 				navigate("/admin/model");

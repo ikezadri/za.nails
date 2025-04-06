@@ -7,9 +7,10 @@
                   width:25rem;
                   margin-left:55rem;
                   position: relative;
-                  bottom:19rem;
+                  bottom:17rem;
                   right:5rem;
                   align-self: center;
+                  text-align: justify;
                   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
 
 .nailart_article{display: flex; justify-content: space-between;}

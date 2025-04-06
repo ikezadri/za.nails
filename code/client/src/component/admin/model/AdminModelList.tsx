@@ -12,17 +12,17 @@ const AdminModelList = () => {
 
 	return (
 		<>
-			<h2>Model list</h2>
+			<h2>Liste de modèles</h2>
 
 			<p>
-				<Link to={"/admin/model/form"}>Create</Link>
+				<Link to={"/admin/model/form"}>Rendez-vous</Link>
 			</p>
 
 			<table>
 				<tr>
-					<th>Name</th>
-					<th>Image</th>
-					<th>Types</th>
+					<th>Nom</th>
+					<th>Modèles</th>
+					<th>Type de modèles</th>
 					<tr />
 				</tr>
 
@@ -36,10 +36,10 @@ const AdminModelList = () => {
 						<td>{model.image}</td>
 						<td>
 							<Link className="btn" to={`/admin/model/form/${model.id}`}>
-								Update
+								Mise à jour
 							</Link>
 							<Link className="btn" to={`/admin/model/delete/${model.id}`}>
-								Delete
+								Supprimer
 							</Link>
 						</td>
 					</tr>

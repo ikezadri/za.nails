@@ -4,7 +4,7 @@ import AdminModelList from "./AdminModelList";
 const AdminModelPage = () => {
 	return (
 		<>
-			<h1>coucou</h1>
+			<h1>Liste de rendez-vous</h1>
 			<AdminModelList />
 		</>
 	);

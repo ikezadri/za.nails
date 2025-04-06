@@ -22,7 +22,7 @@ const ReservationPage = () => {
     const onSubmit = async (values: Booking) => {
 		
 
-      console.log(values);
+    //   console.log(values);
       //console.log(formData);
   
       //requete HTTP
@@ -38,7 +38,7 @@ const ReservationPage = () => {
 
     return (
         <div className={styles.container}>
-            <h2>Réservez votre séance</h2>
+            <h2>Prenez rendez-vous</h2>
             {/* {onmessage && <div className={styles.message}>{onmessage}</div>} */}
             <Notice />
 
@@ -55,24 +55,24 @@ const ReservationPage = () => {
                 </div>
 
                 <div className={styles.field}>
-                    <label htmlFor="time">Heure (optionnelle)</label>
+                    <label htmlFor="time">Heure</label>
                     <input type="time" id="time" {...register("date_time")} />
                 </div>
 
                 <div className={styles.field}>
-                    <label htmlFor="type">Type de model</label>
-                    <select id="type" {...register("types", { required: "Veuillez choisir un model" })}>
+                    <label htmlFor="type">Modèle</label>
+                    <select id="type" {...register("types", { required: "Veuillez choisir un modèle" })}>
                         <option value="">Sélectionner...</option>
-                        <option value="soi">Manicure</option>
-                        <option value="animal">Pose capsule</option>
-                        <option value="situation">Soins</option>
+                        <option value="">Manucure</option>
+                        <option value="">Pose capsule</option>
+                        <option value="">Soins</option>
                     </select>
                     <small>{typeof errors.types?.message}</small>
                 </div>
 
                
 
-                <button type="submit" className={styles.submitButton}>Réserver</button>
+                <button type="submit" className={styles.submitButton}>Prendre rendez-vous</button>
             </form>
         </div>
     );
