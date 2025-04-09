@@ -1,5 +1,4 @@
 import Nav from "./Nav";
-
 // import d'un CSS d'un composant
 import styles from "../../assets/css/header.module.css";
 import { Link } from "react-router-dom";

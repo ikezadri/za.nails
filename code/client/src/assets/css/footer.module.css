@@ -8,7 +8,7 @@
         a{color: var(--vanille);
           text-decoration:none;
           font-size:large; 
-          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}  
+          font-family:'Inter', sans-serif;}}  
 
 @media screen and (max-width: 48rem) {
     .site-footer {
