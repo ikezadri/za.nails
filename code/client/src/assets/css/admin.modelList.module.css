@@ -1,17 +1,17 @@
 .conteneur {
 	padding: 20px;
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Inter',serif;
 	background-color: #f9fafb;
 }
 
 .titre {
-	color: #1d4ed8;
+	color: var(--bleu);
 	font-size: 2rem;
 	margin-bottom: 20px;
 }
 
 .link {
-	color: #2563eb;
+	color: var(--bleu);
 	text-decoration: none;
 	font-weight: 600;
 }
