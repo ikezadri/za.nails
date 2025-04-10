@@ -28,9 +28,9 @@ const Nav = () => {
 				className={`${styles["site-nav"]} ${navMobileIsVisible ? styles["site-nav-visible"] : ""}`}
 				ref={siteNav}>
 				{/* <Link to={"/"}>Home</Link> */}
-				<Link to={"/prestation"}>Prestation</Link>
-				<Link to={"/tarifs"}>Tarifs</Link>
-				<Link to={"/contact"}>Contact</Link>
+				<Link to={"/prestation"} onClick={click}>Prestation</Link>
+				<Link to={"/tarifs"} onClick={click}>Tarifs</Link>
+				<Link to={"/contact"} onClick={click}>Contact</Link>
 
 				{user.role?.name === "admin" ? (
 				<Link to={"/admin"}>Admin</Link>
@@ -40,7 +40,7 @@ const Nav = () => {
 					<Link to={"/logout"}>Déconnexion</Link>
 				) : (
 				<>
-					<Link to={"/moncompte"}>Mon compte</Link>	
+					<Link to={"/moncompte"} onClick={click}>Mon compte</Link>	
 				</>
 			)
 		}
@@ -51,9 +51,9 @@ const Nav = () => {
             {/* utiliser / pour cibler le dossier public */}
 			
             <Link to={"/reservation"}>
+
             <button className={styles["btn-rdv"]} 
     		type="button" onClick={ click }>
-       		 Réservation
         	</button>
 
             </Link>

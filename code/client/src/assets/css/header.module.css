@@ -11,5 +11,13 @@
           font-size:medium; 
           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}} 
 
-.logo-jsp{scale:50%; position:relative; left:-60px;}
+.logo-jsp{scale:50%; width:100%; margin-left:-3rem;}
+
+@media (max-width : 425px){
+  .logo-jsp{scale:50%; width:100%; margin-left:2.5rem;}
+}
+
+@media (max-width : 375px){
+  .logo-jsp{scale:50%; width:100%; margin-left:1.5rem;}
+}
 

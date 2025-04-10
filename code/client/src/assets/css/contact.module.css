@@ -27,7 +27,7 @@
   }
 
   .form {
-    background-color: var(--marronf);
+    background-color: var(--vanille);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: #495057;
+    color:var(--marronf);
   }
 
   input, 
@@ -72,8 +72,8 @@
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background-color: var(--vanille);
-    color: var(--marronf);
+    background-color: var(--marronf);
+    color: var(--bleu);
     border: none;
     border-radius: 4px;
     font-size: 1rem;
