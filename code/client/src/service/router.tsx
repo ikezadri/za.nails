@@ -14,6 +14,8 @@ import RegisterPage from "../page/RegisterPage";
 import LoginPage from "../page/LoginPage";
 import LogoutPage from "../page/LogoutPage";
 import Guard from "../component/Guard";
+import Confidentialite from "../page/Confidentialite";
+import MentionsLegales from "../page/MentionsLegales";
 
 const router = createBrowserRouter([
 	{
@@ -60,6 +62,14 @@ const router = createBrowserRouter([
 			{
 				path: "/logout",
 				element: <LogoutPage />,
+			},
+			{
+				path: "/confidentialite",
+				element: <Confidentialite />,
+			},
+			{
+				path: "/mentionslegales",
+				element: <MentionsLegales />,
 			},
 		],
 	},

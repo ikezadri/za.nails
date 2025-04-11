@@ -1,0 +1,35 @@
+.legal-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Inter',sans-serif;
+    color: #1f2937; /* gris foncé */
+    line-height: 1.7;
+    background-color: #fff;
+  }
+  
+  .legal-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .legal-container p {
+    margin-top: 0.75rem;
+  }
+  
+  .legal-container strong {
+    color: #111827; 
+  }
+  
+  @media (max-width: 640px) {
+    .legal-container {
+      padding: 1rem;
+    }
+  
+    .legal-container h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
