@@ -1,9 +1,10 @@
-h1{
+.onglem h1{
     color: var(--bleu);
     padding-top:1rem;
     font-size:3rem;
     max-height:min-content;
-    font-family:'Great+Vibes', cursive;
+    font-family:'Great Vibes', cursive;
+    font-size: bold;
     align-self: center;
     padding-bottom: 2.5rem;}
 
@@ -16,7 +17,7 @@ h1{
               width:25rem;
               margin-left: 10rem;
               align-self: center;
-              font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+              font-family:'Inter', sans-serif;}}
 
 .ongle_article{display: flex; justify-content: space-between;}
 

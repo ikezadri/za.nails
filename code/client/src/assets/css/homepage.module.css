@@ -13,6 +13,11 @@
                   text-align: justify;
                   font-family:'Inter', sans-serif;}}
 
+.titre2{font-family:'Courgette', cursive; 
+        background-color:var(--vanille);
+        font-weight: 400;
+        font-style: normal;} 
+
 .nailart_article{display: flex; justify-content: space-between;}
 
 .babyboomer2{

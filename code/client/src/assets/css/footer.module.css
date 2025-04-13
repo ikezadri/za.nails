@@ -1,7 +1,7 @@
 .site-footer{
     background: var(--marronc); 
     display:flex; 
-    height:6rem; 
+    min-height:6rem; 
     justify-content:center; 
     align-items:center; 
     column-gap:1rem;

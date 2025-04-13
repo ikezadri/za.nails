@@ -21,6 +21,9 @@ const HomePage = () => {
 								</p>
 					</article>
 				</section>
+						<section className={styles.titre2}>
+							<h2>Voici nos prestations</h2>
+						</section>
 
 				<section className={styles.imgcontainer}>
 					<div className={styles.babyboomer2}>

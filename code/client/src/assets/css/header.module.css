@@ -9,7 +9,7 @@
         a{color: var(--vanille);
           text-decoration:none;
           font-size:medium; 
-          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}} 
+          font-family:'Inter',sans-serif;}} 
 
 .logo-jsp{scale:50%; width:100%; margin-left:-3rem;}
 
