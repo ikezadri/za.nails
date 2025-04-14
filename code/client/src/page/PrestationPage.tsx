@@ -9,11 +9,11 @@ const PrestationPage = () => {
 						<h1>Exprimez votre style jusqu’au bout des ongles !</h1>
 						<article className={styles.ongle_article}>
 							<p>
-							Sublimez vos mains avec cette pose capsule élégante, alliant la solidité du gel à la finesse d’une French blanche revisitée. 
-								<br />
-							Les pointes sont ornées de motifs artistiques délicats pour un rendu sophistiqué, moderne et ultra-tendance.
-								<br />
-							Idéale pour les événements spéciaux comme pour le quotidien, cette pose est le reflet d’un style affirmé et soigné jusque dans les moindres détails.
+							Laissez-vous séduire par l’élégance intemporelle d’une French blanche revisitée, modernisée avec justesse pour répondre aux envies d’aujourd’hui. Cette pose capsule, à la fois solide grâce à la qualité du gel et d’une finesse remarquable, offre un équilibre parfait entre durabilité et raffinement.
+
+							Les pointes sont soigneusement travaillées avec des motifs artistiques délicats, dessinés à la main avec précision et créativité. Chaque ongle devient une véritable miniature d’art, révélant votre goût pour les détails subtils et le style affirmé. Le rendu est à la fois sophistiqué, moderne et ultra-tendance — idéal pour celles qui souhaitent se démarquer tout en conservant une allure chic et naturelle.
+
+							Pensée autant pour les grandes occasions que pour le quotidien, cette pose s’adapte à votre rythme de vie sans compromis sur l’élégance. Que ce soit pour un mariage, une soirée importante ou simplement pour sublimer votre quotidien, elle incarne la féminité jusque dans les moindres détails.
 							</p>
 								<img src="/img/mariage.jpg" alt="" />
 						</article>
@@ -23,13 +23,11 @@ const PrestationPage = () => {
 					<article className={styles.bbomer_article}>
 							<img src="/img/babyboomer1.jpg" alt="" />
 								<p>
-									Ongles French Manucure Classique
-										<br />
-									Ces ongles élégants et intemporels arborent une finition soignée et raffinée. 
-										<br />
-									La base rose pâle subtilement translucide met en valeur des extrémités blanches parfaitement dessinées, offrant un look naturel et sophistiqué. 
-										<br />
-									Idéal pour toutes les occasions, ce style classique s'adapte aussi bien à un événement spécial qu'à un usage quotidien.
+								Intemporelle et universellement reconnue pour sa sophistication, la French manucure classique traverse les tendances sans jamais perdre de sa superbe. C’est le symbole d’un style soigné, discret et toujours élégant.
+
+								Cette pose emblématique se distingue par sa finition nette et délicate : une base rose pâle subtilement translucide qui sublime la carnation naturelle de l’ongle, surmontée d’un bord blanc parfaitement dessiné. Le contraste doux entre la base et la pointe crée un effet à la fois raffiné et lumineux, pour une allure propre, soignée et naturellement chic.
+
+								La French manucure est idéale en toutes circonstances : pour un mariage, un entretien, une sortie ou simplement pour rehausser votre quotidien avec une touche de fraîcheur. Son charme réside dans sa simplicité apparente, mais sa réalisation exige rigueur, précision et un savoir-faire maîtrisé.
 								</p>
 					</article>
 			</section>
@@ -37,11 +35,11 @@ const PrestationPage = () => {
 			<section className={styles.fleur}>
 					<article className={styles.fleur_article}>
 							<p>
-								Ongles élégants et fleuris
-									<br />
-								Découvrez cette sublime pose d’ongles réalisée avec soin, parfaite pour apporter une touche de douceur et de féminité à vos mains.
-									<br /> 
-								Les ongles sont sublimés par un vernis pastel lilas, accompagné d’un délicat motif floral peint à la main, idéal pour un look raffiné et printanier.
+							Plongez dans l’univers délicat de cette pose d’ongles, pensée comme une véritable ode à la féminité et à la douceur. Chaque détail est minutieusement travaillé pour sublimer vos mains avec grâce, légèreté et créativité.
+
+							Cette création unique met en valeur un vernis pastel lilas, tendre et apaisant, qui évoque les premiers jours du printemps et le renouveau de la nature. Cette teinte subtile apporte instantanément une sensation de fraîcheur, tout en restant élégante et moderne.
+
+							Pour parfaire cette base, de délicats motifs floraux sont peints à la main avec précision, comme une caresse artistique sur chaque ongle. Les fleurs, inspirées de la nature et des jardins en fleurs, ajoutent une touche romantique et poétique à l’ensemble. Chaque ongle devient alors un petit tableau, une expression douce et raffinée de votre style personnel.
 							</p>
 								<img src="/img/fleur.jpg" alt="" />
 					</article>

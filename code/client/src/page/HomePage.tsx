@@ -11,13 +11,14 @@ const HomePage = () => {
 
 			<main>
 				<section className={styles.nailsart}>
-					<h1>Bienvenue sur mon site !</h1>
+					<h1>Qu'est-ce que za.nails ?</h1>
 					<article className={styles.nailsart_article}>
 					{/* utiliser / pour cibler le dossier public */}
 						<img src="/img/nails-artist.png" alt="" />
 								<p>
-								Offrez à vos mains l’attention qu’elles méritent. 
-								Ici, chaque détail compte pour révéler votre élégance naturelle. Découvrez un univers dédié à la détente, à la créativité et au soin, où votre satisfaction est notre priorité.
+								Parce qu’elles sont le reflet discret de votre personnalité, vos mains méritent un soin tout particulier. Chaque geste que vous accomplissez, chaque poignée de main, chaque caresse raconte une histoire – la vôtre. Ici, nous vous invitons à entrer dans un univers où le raffinement rencontre le bien-être, où chaque détail est pensé pour sublimer votre beauté naturelle.
+								Dans notre espace dédié, le soin des mains devient un véritable rituel. Loin du tumulte quotidien, vous serez accueilli(e) dans une ambiance douce et apaisante, propice à la détente et à la reconnexion avec soi-même. Nos experts prennent le temps d’écouter vos envies, d’observer la nature de votre peau, et de vous conseiller les soins les mieux adaptés à vos besoins.
+								Des manucures classiques aux créations artistiques les plus audacieuses, en passant par des soins nourrissants en profondeur, nous mettons notre savoir-faire au service de votre élégance. Chaque prestation est réalisée avec passion, précision et un profond respect de votre confort.
 								</p>
 					</article>
 				</section>

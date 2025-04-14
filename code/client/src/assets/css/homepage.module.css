@@ -1,24 +1,47 @@
-.nailsart{
-        display:flex;
-        flex-direction: column;
-        background: var(--vanille);
-                img{width:50vw; margin-left:3rem;}
-                p{
-                  width:25rem;
-                  margin-left:55rem;
-                  position: relative;
-                  bottom:17rem;
-                  right:5rem;
-                  align-self: center;
-                  text-align: justify;
-                  font-family:'Inter', sans-serif;}}
+.nailsart {
+	display: flex;
+	flex-direction: column;
+	background: var(--vanille);
+	padding: 2rem 1rem;
+}
+
+.nailsart h1 {
+	font-family: 'Great Vibes', cursive;
+	color: var(--bleu);
+	font-size: xxx-large;
+	text-align: center;
+	margin-bottom: 2rem; /* espace entre le titre et l’image */
+}
+
+.nailsart_article {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	margin-bottom: 0; /* retire l’espace en bas */
+}
+
+.nailsart_article img {
+	width: 40%;
+	border-radius: 1rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nailsart_article p {
+	width: 65%;
+	text-align: justify;
+	font-size: 1.1rem;
+    font-family:'Inter', sans-serif;
+	margin: 0;
+	line-height: 1.7;
+}
 
 .titre2{font-family:'Courgette', cursive; 
         background-color:var(--vanille);
-        font-weight: 400;
-        font-style: normal;} 
-
-.nailart_article{display: flex; justify-content: space-between;}
+        color: var(--bleu);
+        padding-top:1rem;
+        text-align: center;} 
 
 .babyboomer2{
         width:25vw;

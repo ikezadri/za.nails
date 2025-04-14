@@ -1,6 +1,13 @@
+p{
+    text-align: justify;
+    line-height: 1.2; /* Augmente l'espacement entre les lignes pour une meilleure lisibilité /
+    font-size: 1.1rem; / Légèrement plus grand pour plus de confort */
+    text-indent: 20px;}
+
+
 .onglem h1{
     color: var(--bleu);
-    padding-top:1rem;
+    padding-top:2rem;
     font-size:3rem;
     max-height:min-content;
     font-family:'Great Vibes', cursive;
@@ -14,12 +21,15 @@
         background: var(--vanille);
             img{width:25vw; margin-right: 10rem;}
             p{
-              width:25rem;
+              width:35rem;
               margin-left: 10rem;
               align-self: center;
               font-family:'Inter', sans-serif;}}
 
-.ongle_article{display: flex; justify-content: space-between;}
+.ongle_article{
+                display: flex; 
+                justify-content: space-between; 
+                box-shadow: 0 4px 12px rgba(0, 0, 0, .30);}
 
 .bboomer1{
           display:flex;
@@ -27,10 +37,10 @@
           background: var(--vanille);
             img{width:25vw; margin-left:10rem;}
             p{
-                width:25rem;
+                width:35rem;
                 margin-right: 10rem;
                 align-self: center;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+                font-family:'Inter',sans-serif;}}
 
 .bbomer_article{display:flex; justify-content:space-between;}
 
@@ -38,15 +48,17 @@
         display:flex;
         background: var(--vanille);
         flex-direction: column;
-        padding-bottom:1rem;
             img{width:25vw; margin-right: 10rem;}
             p{
-                width:25rem;
+                width:35rem;
                 margin-left: 10rem;
                 align-self: center;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
+                font-family:'Inter',sans-serif;}}
 
-.fleur_article{display:flex; justify-content:space-between;}
+.fleur_article{
+                display:flex; 
+                justify-content:space-between;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, .30);}
 
 @media screen and (max-width: 768px) {
     h1 {

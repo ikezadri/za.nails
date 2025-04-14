@@ -1,130 +1,103 @@
-.prix{
+.tarifsPage {
+    background-color: var(--vanille);
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pageTitle {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    color: var(--bleu);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 3rem;}
-
-.premier{
-    background-color: var(--bleu);
-    border:3px solid var(--marronf);
-    padding: 2rem;
-    border-radius: 5px;
-    margin: 15px;
-    width: 25vw;
-    h1{
-        color: var(--marronf); 
-        padding:2rem; 
-        font-size:x-large;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-    p{
-        color: var(--vanille); 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
-
-.deuxieme{
-    background-color: var(--bleu);
-    border:3px solid var(--marronf);
-    padding: 2rem;
-    border-radius: 5px;
-    margin: 15px;
-    width: 25vw;
-    h1{
-        color: var(--marronf); 
-        padding:2rem; 
-        font-size:x-large;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-    p{
-        color: var(--vanille); 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
-
-.troisieme{
-    background-color: var(--bleu);
-    border:3px solid var(--marronf);
-    padding: 2rem;
-    border-radius: 5px;
-    margin: 15px;
-    width: 25vw;
-        h1{
-            color: var(--marronf); 
-            padding:2rem; 
-            font-size:x-large;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-        p{
-            color: var(--vanille); 
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}
-
-.lien{
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
     display: flex;
-    column-gap: 5rem;
-    color: var(--vanille);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .figcaption {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .figcaption h2 {
+    font-family: "Courgette", cursive;
+    font-size: 1.8rem;
+    color: var(--bleu);
+    margin-bottom: 1rem;
+  }
+  
+  .figcaption p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--rose);
+  }
+  
+  .link {
+    background-color: var(--bleu);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
     font-weight: 600;
-    justify-content: flex-end;
-    padding-top: 15%;}
-
-.premier:hover {transform: scale(1.05); transition: transform 0.3s ease;}
-
-.deuxieme:hover{transform: scale(1.05); transition: transform 0.3s ease;}
-
-.troisieme:hover{transform: scale(1.05); transition: transform 0.3s ease;}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-        text-align: center;
-        padding: 1rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: #2e4a91;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .grid {
+      flex-direction: column;
+      align-items: center;
     }
-
-    .onglem, .bboomer1, .fleur {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: var(--vanille);
-        padding: 1rem;
+  
+    .card {
+      width: 90%;
     }
-
-    .onglem img, .bboomer1 img, .fleur img {
-        width: 80vw;
-        margin: 1rem 0;
-    }
-
-    .onglem p, .bboomer1 p, .fleur p {
-        width: 80%;
-        text-align: center;
-        margin: 1rem 0;
-    }
-
-    .ongle_article, .bbomer_article, .fleur_article {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .prix {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem 0;
-    }
-
-    .premier, .deuxieme, .troisieme {
-        width: 80vw;
-        padding: 1.5rem;
-        margin: 10px 0;
-        text-align: center;
-    }
-
-    .lien {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        row-gap: 1rem;
-        padding-top: 2rem;
-    }
-
-    /* Suppression des effets hover */
-    .premier:hover, .deuxieme:hover, .troisieme:hover {
-        transform: none;
-        transition: none;
-    }
-}
-
+  }
+  
