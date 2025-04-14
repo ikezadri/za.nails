@@ -1,34 +1,36 @@
-.legal-container {
+.legalContainer {
     max-width: 768px;
     margin: 0 auto;
     padding: 2rem;
     font-family: 'Inter',sans-serif;
-    color: #1f2937; /* gris foncé */
+    color:var(--marronf); /* gris foncé */
     line-height: 1.7;
-    background-color: #fff;
+    background-color:var(--vanille);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
   }
   
-  .legal-container h1 {
+  .legalContainer h1 {
     font-size: 2rem;
     font-weight: 700;
+    font-family:'Courgette', cursive;
     margin-bottom: 1rem;
-    color: #000;
+    color: var(--bleu);
   }
   
-  .legal-container p {
+  .legalContainer p {
     margin-top: 0.75rem;
   }
   
-  .legal-container strong {
+  .legalContainer strong {
     color: #111827; 
   }
   
   @media (max-width: 640px) {
-    .legal-container {
+    .legalContainer {
       padding: 1rem;
     }
   
-    .legal-container h1 {
+    .legalContainer h1 {
       font-size: 1.5rem;
     }
   }

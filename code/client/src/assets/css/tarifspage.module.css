@@ -59,7 +59,8 @@
   
   .figcaption p {
     font-size: 1rem;
-    color: #333;
+    color:var(--marronf);
+    font-family:'Inter', sans-serif;
     margin-bottom: 1.5rem;
   }
   
@@ -72,12 +73,13 @@
   .price {
     font-weight: bold;
     font-size: 1.2rem;
-    color: var(--rose);
+    color: var(--marronc);
   }
   
   .link {
     background-color: var(--bleu);
-    color: white;
+    color:var(--marronf);
+    font-family:'Inter', sans-serif;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     text-decoration: none;

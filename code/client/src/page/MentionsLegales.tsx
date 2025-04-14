@@ -1,4 +1,4 @@
-import styles from "../assets/css/mentionslegales.module.css";
+import styles from "../assets/css/mentions.legales.module.css";
 
 export const MentionsLegales = () => {
   return (

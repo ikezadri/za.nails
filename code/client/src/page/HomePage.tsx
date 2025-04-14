@@ -1,5 +1,3 @@
-// import { Link } from "react-router-dom";
-
 import styles from "../assets/css/homepage.module.css";
 import Notice from "../component/common/Notice";
 

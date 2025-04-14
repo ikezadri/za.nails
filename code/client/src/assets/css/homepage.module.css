@@ -23,13 +23,13 @@
 }
 
 .nailsart_article img {
-	width: 40%;
+	width:40%;
 	border-radius: 1rem;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nailsart_article p {
-	width: 65%;
+	width:80%;
 	text-align: justify;
 	font-size: 1.1rem;
     font-family:'Inter', sans-serif;

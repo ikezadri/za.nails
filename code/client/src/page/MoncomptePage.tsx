@@ -73,6 +73,7 @@ const MoncomptePage = () => {
     };
 
     return (
+    <main className="test">
         <div className={styles.container}>
             <div className={styles.toggleButtons}>
                 <button
@@ -97,8 +98,7 @@ const MoncomptePage = () => {
             {isLogin ? (
                 // Formulaire de connexion
                 <form onSubmit={handleLoginSubmit(onLoginSubmit)} className={styles.form}>
-                    <h2>Connexion</h2>
-
+            
                     <div className={styles.field}>
                         <label htmlFor="email">Email</label>
                         <input
@@ -195,6 +195,7 @@ const MoncomptePage = () => {
                 </form>
             )}
         </div>
+    </main>
     );
 };
 

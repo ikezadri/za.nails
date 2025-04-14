@@ -1,39 +1,41 @@
-.privacy-container {
+.privacyContainer {
     max-width: 768px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1f2937;
-    background-color: #fff;
+    font-family: 'Inter',sans-serif;
+    color:var(--marronf);
+    background-color:var(--vanille);
     line-height: 1.7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
   }
   
-  .privacy-container h1 {
+  .privacyContainer h1 {
     font-size: 2rem;
     font-weight: 700;
+    font-family:'Courgette', cursive;
     margin-bottom: 1rem;
-    color: #000;
+    color:var(--bleu);
   }
   
-  .privacy-container p {
+  .privacyContainer p {
     margin-top: 0.75rem;
   }
   
-  .privacy-container strong {
+  .privacyContainer strong {
     color: #111827;
   }
   
-  .privacy-container ul {
+  .privacyContainer ul {
     list-style-type: disc;
     padding-left: 1.5rem;
   }
   
   @media (max-width: 640px) {
-    .privacy-container {
+    .privacyContainer {
       padding: 1rem;
     }
   
-    .privacy-container h1 {
+    .privacyContainer h1 {
       font-size: 1.5rem;
     }
   }
