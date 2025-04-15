@@ -34,7 +34,7 @@ const TarifsPage = () => {
         <figure className={styles.card}>
           <img
             src="/img/soins-ongles.jpg"
-            alt="Soin des mains"
+            alt="Soin des mains avec gommage, massage et masque"
             className={styles.image}
           />
           <figcaption className={styles.figcaption}>
@@ -57,7 +57,7 @@ const TarifsPage = () => {
         <figure className={styles.card}>
           <img
             src="/img/cerise.png"
-            alt="Manucure professionnelle"
+            alt="Manucure professionnelle avec pose de vernis"
             className={styles.image}
           />
           <figcaption className={styles.figcaption}>

@@ -90,8 +90,18 @@
   .link:hover {
     background-color: #2e4a91;
   }
-  
-  /* Responsive */
+
+  /* Pour améliorer le focus clavier sans changer le design visible */
+.link:focus {
+  outline: none; /* Pas de bord visible si tu ne veux rien voir */
+}
+
+/* Accessibilité des images avec texte alternatif si l’image ne se charge pas */
+.image::after {
+  content: attr(alt);
+  display: none; /* Ne s'affiche pas, mais reste accessible s’il le faut */
+}
+
   @media screen and (max-width: 768px) {
     .grid {
       flex-direction: column;

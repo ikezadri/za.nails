@@ -16,6 +16,7 @@ import LogoutPage from "../page/LogoutPage";
 import Guard from "../component/Guard";
 import Confidentialite from "../page/Confidentialite";
 import MentionsLegales from "../page/MentionsLegales";
+import Plandusite from "../page/Plandusite";
 
 const router = createBrowserRouter([
 	{
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
 			{
 				path: "/mentionslegales",
 				element: <MentionsLegales />,
+			},
+			{
+				path: "/plandusite",
+				element: <Plandusite />,
 			},
 		],
 	},

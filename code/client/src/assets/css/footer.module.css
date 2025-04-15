@@ -12,6 +12,8 @@
           font-size:large; 
           font-family:'Inter', sans-serif;}}  
 
+
+
 @media screen and (max-width: 48rem) {
     .site-footer {
         display: flex;

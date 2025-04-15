@@ -70,49 +70,85 @@
         padding-top:3rem;
         padding-bottom:3rem;}
 
+        .skipLink {
+            position: absolute;
+            left: -9999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        
+        .skipLink:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #000;
+            color: #fff;
+            z-index: 1000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
 
         @media screen and (max-width: 768px) {
-                .nailsart {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    background: var(--vanille);
-                    padding: 1rem;
-                }
-            
-                .nailsart img {
-                    width:100%;
-                    margin-left:0;
-                }
-            
-                .nailsart p {
-                    width:100%;
-                    margin: 1rem 0;
-                    position: static;
-                    text-align: center;
-                }
-            
-                .nailart_article {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                }
-            
-                .babyboomer2,
-                .cerise,
-                .serpent {
-                    width: 80vw;
-                    padding-top: 1rem;
-                    position: static;
-                    z-index: auto;
-                }
-            
-                .imgcontainer {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    background: var(--vanille);
-                    padding: 2rem 0;
-                }
+            .nailsart {
+                align-items: center;
+                padding: 1.5rem 1rem;
             }
-            
+        
+            .nailsart h1 {
+                font-size: 2rem;
+            }
+        
+            .nailsart_article {
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+                text-align: center;
+            }
+        
+            .nailsart_article img {
+                width: 100%;
+                max-width: 320px;
+            }
+        
+            .nailsart_article p {
+                width: 100%;
+                text-align: justify;
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+        
+            .titre2 {
+                font-size: 1.5rem;
+                padding: 1rem;
+            }
+        
+            .imgcontainer {
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+                padding: 2rem 1rem;
+            }
+        
+            .babyboomer2,
+            .cerise,
+            .serpent {
+                width: 100%;
+                max-width: 320px;
+                position: static;
+                z-index: auto;
+                padding: 0;
+            }
+        
+            .babyboomer2 img,
+            .cerise img,
+            .serpent img {
+                width: 100%;
+                border-radius: 1rem;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            }
+        }
