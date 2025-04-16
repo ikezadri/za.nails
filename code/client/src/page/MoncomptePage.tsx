@@ -56,19 +56,26 @@ const MoncomptePage = () => {
     // Fonction de soumission pour l'inscription
     const onRegisterSubmit = async (values: User) => {
         setMessage(undefined);
-
-        try {
-            const request = await new SecurityAPI().register(values);
-
-            if ([200, 201].includes(request.status)) {
-                setMessage("Inscription réussie ! Vous pouvez maintenant vous connecter.");
-                setIsLogin(true);
-            } else {
-                setMessage("Erreur lors de l'inscription. Veuillez réessayer.");
-            }
-        } catch (error) {
-            console.error("Erreur lors de l'inscription :", error);
-            setMessage("Une erreur est survenue. Veuillez réessayer.");
+    
+        // Ne garder que les champs attendus par le back
+        const data = {
+            firstname: values.firstname,
+            lastname: values.lastname,
+            email: values.email,
+            phone_number: values.phone_number,
+            password: values.password,
+        };
+    
+        // Optionnel : convertir phone_number en number si besoin
+        // data.phone_number = Number(data.phone_number);
+    
+        const request = await new SecurityAPI().register(data);
+    
+        if ([200, 201].includes(request.status)) {
+            setMessage("Inscription réussie ! Vous pouvez maintenant vous connecter.");
+            setIsLogin(true);
+        } else {
+            setMessage("Erreur lors de l'inscription. Veuillez réessayer.");
         }
     };
 

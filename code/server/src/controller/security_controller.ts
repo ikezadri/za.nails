@@ -11,16 +11,15 @@ class SecurityController {
     public register = async (req: Request, res: Response) => {
         // hacher le mot de passe
         // await argon2.hash(req.body.password);
-        // console.log(req.body);
-		
+
         const results = await new SecurityRepository().register({
             ...req.body,
             password: await argon2.hash(req.body.password),
         });
 
+		console.log(req.body);
 		// console.log(results);
 		
-        
         // si la requête SQL renvoie une erreur 
         if (results instanceof Error) {
             res.status(400).json({

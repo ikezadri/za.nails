@@ -1,132 +1,132 @@
-import { useForm } from "react-hook-form";
-import { useParams } from "react-router-dom";
-// import UserAPI from "../../service/user_api";
-// import RolesAPI from "../../service/roles_api";
-import type User from "../../model/user";
-import SecurityAPI from "../../service/security_api";
-// import type Roles from "../../model/roles";
+// import { useForm } from "react-hook-form";
+// import { useNavigate, useParams } from "react-router-dom";
+// import { useState } from "react";
 
-const RegisterForm = () => {
-	// handSubmit = permet de gérer la soumission du formulaire
-	// register = permet de référencer les champs de formulaire
-	// errors = permet de gérer les messages d'erreur
-	// reset permet de réinitialiser/mettre à jour les données d'un formulaire
-	// case à cocher = utiliser un array
-	const {
-		handleSubmit,
-		register,
-		formState: { errors }
-	} = useForm<User>();
+// import type User from "../../model/user";
+// import SecurityAPI from "../../service/security_api";
 
+// const RegisterForm = () => {
+// 	const {
+// 		handleSubmit,
+// 		register,
+// 		formState: { errors },
+// 	} = useForm<User>();
 
-	// récuperer l'id de l'URL
-	const { id } = useParams();
+// 	// Redirection
+// 	const navigate = useNavigate();
 
-	// soumission du formulaire// values récupère la saisie du formulaire
+// 	//Message du formulaire
+// 	const [message, setMessage] = useState<string>();
 
-	// deux types de formulaire :
-	// - sans fichier la propriété body de la requête HTTP peut être en JSON : JSON.stringly / dans la requête HTTP, utiliser l'en tête : Content-Types : application json
+// 	const OnSubmit = async (values: User) => {
+// 		const { id, ...data } = values;
+// 		console.log("Envoi", data);
 
-	// - avec fichier
-	//  - la propriété body de la requête HTTP doit être en FormData
-	//  - la balise <form> doit posséder l'attribut enctype="multipart/form-data"
+// 		// Requete HTTP
+// 		const request = await new SecurityAPI().register(data);
+// 		console.log("Réponse:", request);
 
-	const onSubmit = async (values: User) => {
-		// créer un FormData en reprenant strictement le nom des champs
-				// requête HTTP
-				const request = await new SecurityAPI().register(values);
-				console.log(request);
-				
-				// tester le code de statut HTTP
-				// if([200,201].indexOf(request.status) > -1){
-				// 	// redirection 
-				// 	navigate('/admin/model');
-		
-	};
+// 		// Tester le code de statut HTTP
+// 		if ([200, 201].indexOf(request.status) > -1) {
+// 			// window.sessionStorage.setItem("notice", "Inscription réussie");
+// 			// Redirection
+// 			navigate("/login");
+// 		} else {
+// 			// Message
+// 			setMessage("Erreur lors de l'inscription");
+// 		}
+// 	};
 
-	return (
-		<form onSubmit={handleSubmit(onSubmit)}>
-			<p>
-				<label htmlFor="fistname">Prénom:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<input
-					type="text"
-					{...register("firstname", {
-						required: "Prénom requis",
-						minLength: {
-							value: 2,
-							message: "Prénom requis",
-						},
-					})}
-				/>
-				<small>{errors.firstname?.message}</small>
-			</p>
+// 	// récuperer l'id de l'URL
+// 	const { id } = useParams();
 
-			<p>
-				<label htmlFor="lastname">Nom:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<input
-					type="text"
-					{...register("lastname",id ? {} : {
-						required: "Nom requis",
-					})}
-				/>
-				<small>{errors.lastname?.message}</small>
-			</p>
+// 	return (
+// 		<form className="register-form" onSubmit={handleSubmit(OnSubmit)}>
+// 			<h2>Créer votre compte</h2>
+// 			{message ? <p>{message}</p> : null}
+// 			<div>
+// 				<label htmlFor="firstname">Prénom:</label>
+// 				<input
+// 					type="text"
+// 					{...register("firstname", {
+// 						required: "Prénom requis",
+// 						minLength: {
+// 							value: 2,
+// 							message: "Prénom requis",
+// 						},
+// 					})}
+// 				/>
+// 				<small>{errors.firstname?.message}</small>
+// 			</div>
 
-            <p>
-				<label htmlFor="email">Email:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<input
-					type="email"
-					{...register("email", {
-						required: "Email requis",
-						minLength: {
-							value: 2,
-							message: "Email requis",
-						},
-					})}
-				/>
-				<small>{errors.email?.message}</small>
-			</p>
+// 			<div>
+// 				<label htmlFor="lastname">Nom:</label>
+// 				<input
+// 					type="lastname"
+// 					{...register("lastname", {
+// 						required: "Nom requis",
+// 						minLength: {
+// 							value: 2,
+// 							message: "Nom requis",
+// 						},
+// 					})}
+// 				/>
+// 				<small>{errors.lastname?.message}</small>
+// 			</div>
 
-            <p>
-				<label htmlFor="phonenumber">Numéro de téléphone:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<input
-					type="text"
-					{...register("phone_number", {
-						required: "Numéro de téléphone requis",
-						minLength: {
-							value: 2,
-							message: "Numéro de téléphone requis",
-						},
-					})}
-				/>
-				<small>{errors.phone_number?.message}</small>
-			</p>
+// 			<div>
+// 				<label htmlFor="email">Email:</label>
+// 				<input
+// 					type="email"
+// 					{...register("email", {
+// 						required: "Email requis",
+// 						minLength: {
+// 							value: 2,
+// 							message: "Email requis",
+// 						},
+// 					})}
+// 				/>
+// 				<small>{errors.email?.message}</small>
+// 			</div>
 
-            <p>
-				<label htmlFor="password">Mot de passe:</label>
-				{/* reprendre STRICTEMENT le nom des colonnes SQL */}
-				<input
-					type="password"
-					{...register("password", {
-						required: "Mot de passe requis",
-						minLength: {
-							value: 2,
-							message: "Mot de passe requis",
-						},
-					})}
-				/>
-				<small>{errors.password?.message}</small>
-			</p>
+// 			<div>
+// 				<label htmlFor="email">Email:</label>
+// 				<input
+// 					type="email"
+// 					{...register("email", {
+// 						required: "Email requis",
+// 						minLength: {
+// 							value: 2,
+// 							message: "Email requis",
+// 						},
+// 					})}
+// 				/>
+// 				<small>{errors.email?.message}</small>
+// 			</div>
 
-			<p>
-				<input type="hidden"{...register('id') } value={id} />
-				<button type="submit">Submit</button>
-			</p>
-		</form>
-		);
-	};
-export default RegisterForm;
+// 			<div>
+// 				{/* {/ PASSWORD /} */}
+// 				<label htmlFor="phone_number">Numéro:</label>
+// 				{/* {/ reprendre STRICTEMENT le nom des colonnes SQL  */}
+// 				<input
+// 					type="text"
+// 					{...register("phone_number", {
+// 						required: "Numéro de téléphone requis",
+// 						minLength: {
+// 							value: 2,
+// 							message: "Numéro de téléphone requis",
+// 						},
+// 					})}
+// 				/>
+// 				<small>{errors.phone_number?.message}</small>
+// 			</div>
+
+// 			<div>
+// 				<input type="hidden" {...register("id")} value={id} />
+// 				<button type="submit">Submit</button>
+// 			</div>
+// 		</form>
+// 	);
+// };
+
+// export default RegisterForm;

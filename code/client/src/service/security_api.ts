@@ -5,14 +5,16 @@ class SecurityAPI {
         // enregistrer un utilisateur
         const request = new Request(`${import.meta.env.VITE_API_URL}/register`,{
             method:"POST",
-            headers:{
+            headers: {
                 'Content-Type' : 'application/json',
             },
             body: JSON.stringify(data)
         });
-
+        // console.log(data);
+        
         const response = await fetch(request);
-
+        console.log(response);
+        
         return response.json();
     };
 
