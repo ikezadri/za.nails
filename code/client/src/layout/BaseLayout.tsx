@@ -2,13 +2,18 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../component/common/Footer";
 import Header from "../component/common/Header";
+import style from '../assets/css/baselayout.module.css';
 
 const BaseLayout = () => {
 	return (
 		<>
-			<Header />
-			<Outlet />
-			<Footer />
+			<div className={style.layout}>
+				<Header />
+
+				
+				<main className={style.main}><Outlet /></main>
+				<Footer />
+			</div>
 		</>
 	);
 };
