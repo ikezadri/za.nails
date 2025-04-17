@@ -99,11 +99,11 @@ const AdminModelForm = () => {
 				<div className={style.checkboxGroup}>
 					<label className={style.checkbox}>
 						<input type="checkbox" value="1" {...register("type_ids")} />
-						Type 1
+						Capsules
 					</label>
 					<label className={style.checkbox}>
 						<input type="checkbox" value="2" {...register("type_ids")} />
-						Type 2
+						Manucure
 					</label>
 				</div>
 				<small className={style.error}>{errors.type_ids?.message}</small>
