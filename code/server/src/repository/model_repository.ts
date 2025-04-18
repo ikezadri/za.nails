@@ -92,9 +92,9 @@ class ModelRepository {
 	public insert = async (data: Partial<Model>): Promise<Model | unknown> => {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
-
+		console.log(connection);
+		
 		// console.log(data);
-
 		// requête SQL
 		// SELECT roles.* FROM za_nails WHERE roles.id = 1;
 		// créer une variable de requête SQL en préfixant le nom d'une variable par :
@@ -154,42 +154,76 @@ class ModelRepository {
 	};
 
 	public update = async (data: Partial<Model>): Promise<Model | unknown> => {
-		// connexion au serveur MySQL
+		// Connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
-
-		// requête SQL
-		// créer une variable de requête SQL en préfixant le nom d'une variable par :
-		const sql = `
-			UPDATE 
-				${process.env.MYSQL_DATABASE}.${this.table}
-			SET 
-				${this.table}.name = :name,
-				${this.table}.image = :image,
-				${this.table}.type_ids = :type_ids,
-			WHERE
-				${this.table}.id = :id
-			;
-        `;
-		//  exécuter la requête
-		// try / catch : permet d'exécuter une instruction, si l'instruction échoue, une erreur est recupérée
+	
 		try {
-			//créer une transaction SQL
-			connection.beginTransaction();
-
-			const [results] = await connection.execute(sql, data);
-
-			//valider la transaction lorsque l'ensemble des requêtes d'une transaction ont réussi
-			connection.commit();
-
-			return results;
+			// Démarrer une transaction
+			await connection.beginTransaction();
+	
+			// Vérifier si le modèle existe
+			const checkSql = `
+				SELECT id FROM ${process.env.MYSQL_DATABASE}.${this.table}
+				WHERE id = :id LIMIT 1;
+			`;
+			const [existingModel] = await connection.execute(checkSql, {
+				id: data.id,
+			});
+	
+			if (!Array.isArray(existingModel) || existingModel.length === 0) {
+				throw new Error("Le modèle spécifié n'existe pas.");
+			}
+	
+			// Mettre à jour les champs principaux du modèle
+			const updateSql = `
+				UPDATE ${process.env.MYSQL_DATABASE}.${this.table}
+				SET 
+					name = :name,
+					image = :image
+				WHERE
+					id = :id;
+			`;
+			await connection.execute(updateSql, data);
+	
+			// Mettre à jour les relations avec les types si spécifiées
+			if (data.type_ids) {
+				// Supprimer les relations existantes
+				const deleteTypeSql = `
+					DELETE FROM ${process.env.MYSQL_DATABASE}.type_model
+					WHERE model_id = :id;
+				`;
+				await connection.execute(deleteTypeSql, { id: data.id });
+	
+				// Ajouter les nouvelles relations
+				const typeIds = data.type_ids.split(",");
+				for (const typeId of typeIds) {
+					const insertTypeSql = `
+						INSERT INTO ${process.env.MYSQL_DATABASE}.type_model
+						(type_id, model_id)
+						VALUES (:typeId, :id);
+					`;
+					await connection.execute(insertTypeSql, {
+						id: data.id,
+						typeId,
+					});
+				}
+			}
+	
+			// Valider la transaction
+			await connection.commit();
+	
+			// Récupérer le modèle mis à jour
+			return await this.selectOne({ id: data.id });
 		} catch (error) {
-			//annuler l'ensemble des requêtes de la transaction si l'une des requêtes a échouer
-			connection.rollback();
-			// si la requête à échouer
+			// Annuler la transaction en cas d'erreur
+			await connection.rollback();
 			return error;
+		} finally {
+			// Fermer la connexion
+			await connection.release();
 		}
 	};
-
+	
 	public delete = async (data: Partial<Model>): Promise<Model | unknown> => {
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();

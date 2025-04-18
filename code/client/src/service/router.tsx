@@ -17,6 +17,9 @@ import Guard from "../component/Guard";
 import Confidentialite from "../page/Confidentialite";
 import MentionsLegales from "../page/MentionsLegales";
 import Plandusite from "../page/Plandusite";
+import AdminUserPage from "../component/admin/user/AdminUserPage";
+import AdminUserFormPage from "../page/admin/user/AdminUserFormPage";
+import AdminUserDeletePage from "../page/admin/user/AdminUserDeletePage";
 
 const router = createBrowserRouter([
 	{
@@ -101,6 +104,18 @@ const router = createBrowserRouter([
 			{
 				path: "model/delete/:id",
 				element: <AdminModelDeletePage />,
+			},
+			{
+				path: "user",
+				element: <AdminUserPage />,
+			},
+			{
+				path: "user/form/:id?",
+				element: <AdminUserFormPage />,
+			},
+			{
+				path: "user/delete/:id",
+				element: <AdminUserDeletePage />,
 			},
 		],
 	},

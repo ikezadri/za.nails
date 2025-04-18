@@ -53,31 +53,57 @@ const MoncomptePage = () => {
         }
     };
 
-    // Fonction de soumission pour l'inscription
-    const onRegisterSubmit = async (values: User) => {
-        setMessage(undefined);
-    
-        // Ne garder que les champs attendus par le back
-        const data = {
-            firstname: values.firstname,
-            lastname: values.lastname,
-            email: values.email,
-            phone_number: values.phone_number,
-            password: values.password,
-        };
-    
-        // Optionnel : convertir phone_number en number si besoin
-        // data.phone_number = Number(data.phone_number);
-    
-        const request = await new SecurityAPI().register(data);
-    
-        if ([200, 201].includes(request.status)) {
+// Fonction de soumission pour l'inscription
+const onRegisterSubmit = async (values: User) => {
+    setMessage(undefined);
+
+    // Ne garder que les champs attendus par le back
+    const data = {
+        firstname: values.firstname,
+        lastname: values.lastname,
+        email: values.email,
+        phone_number: values.phone_number,
+        password: values.password,
+    };
+
+    // Optionnel : convertir phone_number en number si besoin
+    // data.phone_number = Number(data.phone_number);
+
+    try {
+        const response = await new SecurityAPI().register(data);
+
+        if ([200, 201].includes(response.status)) {
             setMessage("Inscription réussie ! Vous pouvez maintenant vous connecter.");
             setIsLogin(true);
         } else {
-            setMessage("Erreur lors de l'inscription. Veuillez réessayer.");
+            // Tenter de lire le corps de la réponse pour les erreurs
+            let errorData: { message?: { message: string } }; // Type corrigé pour la structure imbriquée
+            try {
+                errorData = await response.json(); // Parser la réponse JSON
+            } catch (jsonError) {
+                console.error("Erreur lors du parsing de la réponse :", jsonError);
+                setMessage("Erreur serveur. Veuillez réessayer.");
+                return;
+            }
+
+            // Gestion des erreurs spécifiques
+            if (response.status === 400 && errorData?.message) {
+                if (errorData.message.message?.toLowerCase().includes("email")) {
+                    setMessage("Cet email est déjà utilisé ou invalide.");
+                } else if (errorData.message.message?.toLowerCase().includes("phone_number")) {
+                    setMessage("Ce numéro de téléphone est déjà utilisé ou invalide.");
+                } else {
+                    setMessage(errorData.message.message || "Erreur lors de l'inscription. Veuillez vérifier vos informations.");
+                }
+            } else {
+                setMessage("Une erreur est survenue. Veuillez réessayer.");
+            }
         }
-    };
+    } catch (error) {
+        console.error("Erreur lors de l'inscription :", error);
+        setMessage("Une erreur est survenue. Veuillez réessayer.");
+    }
+};
 
     return (
     <main className="test">

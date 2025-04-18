@@ -5,7 +5,8 @@ const AdminHomePage = () => {
 	return (
 		<div className={styles.remplit}>
 			<h1>Bienvenue sur l'administration</h1>
-			<Link to={"/admin/model"}>Vos rendez-vous</Link>
+			<Link to={"/admin/model"}>Mes rendez-vous</Link>
+			<Link to={"/admin/user"}>Mes utilisateurs</Link>
 		</div>
 	);
 };

@@ -96,9 +96,12 @@ class UserRepository {
 	};
 
 	public insert = async (data: Partial<User>): Promise<User | unknown> => {
+		// console.log("données reçues",data);
+		
 		// connexion au serveur MySQL
 		const connection = await new MySQLService().connect();
-
+		// console.log("Connexion mySQL réussie");
+		
 		// requête SQL
 		// créer une variable de requete SQL en préfixant le nom d'une variable par :
 		const sql = `
@@ -116,20 +119,31 @@ class UserRepository {
 				)
 			;	
          `;
-
+		// console.log("SQL préparée", sql);
+		// console.log("Paramètres de la requête", data);
+		
+		
 		//exécuter la requête
 		// try / catch permet d'exécuter une instruction, si l'instruction échoue, une erreur est récupérée
 		try {
 			// récupérer les résultats de la requête
 			// results représente le premier indice de la requete
+			// console.log("debut transaction");
+			
 			const [results] = await connection.execute(sql, data);
-
+			// console.log("resultat final", results);
+			
+			
 			// si la requête a réussie
 			return results;
 		} catch (error) {
+			// console.error("Erreur dans la requête", error);
+			// console.error("nsm", error instanceof Error ? error.message : "Erreur inconnue");
+			// console.error("nsm2", error instanceof Error ? error.stack : "pas de stack");
 			// si la requête a échouée
 			return error;
 		}
+		
 	}; 
 
 	public update = async (
@@ -154,7 +168,8 @@ class UserRepository {
 			   ${this.table}.id = :id
 			;	
          `;
-
+		// console.log("SQL préparée", sql);
+		// console.log("Paramètres de la requête", data);
 		//exécuter la requête
 		// try / catch permet d'exécuter une instruction, si l'instruction échoue, une erreur est récupérée
 		try {
@@ -193,7 +208,7 @@ class UserRepository {
               DELETE FROM
 			    ${process.env.MYSQL_DATABASE}.${this.table}
              WHERE
-			   ${this.table}.idUser = :idUser
+			   ${this.table}.id = :id
 			;	
          `;
 

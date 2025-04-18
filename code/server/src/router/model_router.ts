@@ -11,6 +11,8 @@ class ModelRouter {
 	// dossier de destination des fichiers transférés
 	private upload = multer({ dest: `${process.env.ASSETS_DIR}/img` });
 
+	
+
 	// méthodes
 	public getRoutes = () => {
 		this.router.get("/", new ModelController().index);

@@ -1,154 +1,162 @@
 .nailsart {
-	display: flex;
-	flex-direction: column;
-	background: var(--vanille);
-	padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--vanille);
+    padding: 2rem 1rem;
 }
 
 .nailsart h1 {
-	font-family: 'Great Vibes', cursive;
-	color: var(--bleu);
-	font-size: xxx-large;
-	text-align: center;
-	margin-bottom: 2rem; /* espace entre le titre et l’image */
+    font-family: 'Great Vibes', cursive;
+    color: var(--bleu);
+    font-size: xxx-large;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* espace entre le titre et l’image */
 }
 
 .nailsart_article {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	gap: 2rem;
-	margin-bottom: 0; /* retire l’espace en bas */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 0;
+    /* retire l’espace en bas */
 }
 
 .nailsart_article img {
-	width:40%;
-	border-radius: 1rem;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nailsart_article p {
-	width:80%;
-	text-align: justify;
-	font-size: 1.1rem;
-    font-family:'Inter', sans-serif;
-	margin: 0;
-	line-height: 1.7;
+    width: 80%;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    line-height: 1.7;
 }
 
-.titre2{font-family:'Courgette', cursive; 
-        background-color:var(--vanille);
-        color: var(--bleu);
-        padding-top:1rem;
-        text-align: center;} 
+.titre2 {
+    font-family: 'Courgette', cursive;
+    background-color: var(--vanille);
+    color: var(--bleu);
+    padding-top: 1rem;
+    text-align: center;
+}
 
-.babyboomer2{
-        width:25vw;
-        padding-top:1rem;
-        position:relative;
-        z-index:1;}
+.babyboomer2 {
+    width: 25vw;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 1;
+}
 
-.cerise{
-        width:25vw; 
-        padding-top:3rem;
-        z-index:2;
-        position:relative;
-        right:14px;}
+.cerise {
+    width: 25vw;
+    padding-top: 3rem;
+    z-index: 2;
+    position: relative;
+    right: 14px;
+}
 
-.serpent{
-        width:25vw;
-        padding-top:2rem;
-        position:relative;
-        right:25px;
-        z-index:3;}
+.serpent {
+    width: 25vw;
+    padding-top: 2rem;
+    position: relative;
+    right: 25px;
+    z-index: 3;
+}
 
-.imgcontainer{
-        display:flex;
-        background: var(--vanille);
-        justify-content:center;
-        padding-top:3rem;
-        padding-bottom:3rem;}
+.imgcontainer {
+    display: flex;
+    background: var(--vanille);
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
-        .skipLink {
-            position: absolute;
-            left: -9999px;
-            top: auto;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-        }
-        
-        .skipLink:focus {
-            position: static;
-            width: auto;
-            height: auto;
-            margin: 1rem;
-            padding: 0.5rem 1rem;
-            background-color: #000;
-            color: #fff;
-            z-index: 1000;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+.skipLink {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skipLink:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    z-index: 1000;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 
-        @media screen and (max-width: 768px) {
-            .nailsart {
-                align-items: center;
-                padding: 1.5rem 1rem;
-            }
-        
-            .nailsart h1 {
-                font-size: 2rem;
-            }
-        
-            .nailsart_article {
-                flex-direction: column;
-                align-items: center;
-                gap: 1.5rem;
-                text-align: center;
-            }
-        
-            .nailsart_article img {
-                width: 100%;
-                max-width: 320px;
-            }
-        
-            .nailsart_article p {
-                width: 100%;
-                text-align: justify;
-                font-size: 1rem;
-                line-height: 1.6;
-            }
-        
-            .titre2 {
-                font-size: 1.5rem;
-                padding: 1rem;
-            }
-        
-            .imgcontainer {
-                flex-direction: column;
-                align-items: center;
-                gap: 2rem;
-                padding: 2rem 1rem;
-            }
-        
-            .babyboomer2,
-            .cerise,
-            .serpent {
-                width: 100%;
-                max-width: 320px;
-                position: static;
-                z-index: auto;
-                padding: 0;
-            }
-        
-            .babyboomer2 img,
-            .cerise img,
-            .serpent img {
-                width: 100%;
-                border-radius: 1rem;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-            }
-        }
+@media screen and (max-width: 768px) {
+    .nailsart {
+        align-items: center;
+        padding: 1.5rem 1rem;
+    }
+
+    .nailsart h1 {
+        font-size: 2rem;
+    }
+
+    .nailsart_article {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .nailsart_article img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .nailsart_article p {
+        width: 100%;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .titre2 {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .imgcontainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .babyboomer2,
+    .cerise,
+    .serpent {
+        width: 100%;
+        max-width: 320px;
+        position: static;
+        z-index: auto;
+        padding: 0;
+    }
+
+    .babyboomer2 img,
+    .cerise img,
+    .serpent img {
+        width: 100%;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+}

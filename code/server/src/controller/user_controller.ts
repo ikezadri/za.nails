@@ -86,7 +86,7 @@ class UserController {
         // json: formater une réponse en JSON
         res.status(201).json({
             status: 210,
-            message: "Entrée modifier",
+            message: "Utilisateur modifier",
             data: results
         });
         return;
@@ -110,7 +110,7 @@ class UserController {
         // json: formater une réponse en JSON
         res.status(200).json({
             status: 200,
-            message: " Entrée supprimer",
+            message: " Utilisateur supprimer",
             data: results
         });
         return;
