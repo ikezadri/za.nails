@@ -11,6 +11,7 @@ const PrestationPage = () => {
 			<main id="main-content">
 				<section className={styles.onglem} aria-labelledby="section-mariage-title">
 					<h1 id="section-mariage-title">Exprimez votre style jusqu’au bout des ongles !</h1>
+					<h2 className={styles.deuxiemetitre}>French blanche</h2>
 					<article className={styles.ongle_article}>
 						<p>
 							Laissez-vous séduire par l’élégance intemporelle d’une French blanche revisitée, modernisée avec justesse pour répondre aux envies d’aujourd’hui. Cette pose capsule, à la fois solide grâce à la qualité du gel et d’une finesse remarquable, offre un équilibre parfait entre durabilité et raffinement.
@@ -24,6 +25,7 @@ const PrestationPage = () => {
 				</section>
 
 				<section className={styles.bboomer1} aria-label="Pose Babyboomer">
+					<h2 className={styles.deuxiemetitre}>Baby boomer</h2>
 					<article className={styles.bbomer_article}>
 						<img src="/img/babyboomer1.jpg" alt="Manucure Babyboomer rose pâle avec pointe blanche nette" />
 						<p>
@@ -37,6 +39,7 @@ const PrestationPage = () => {
 				</section>
 
 				<section className={styles.fleur} aria-label="Pose fleurie">
+					<h2 className={styles.deuxiemetitre}>Fleurie</h2>
 					<article className={styles.fleur_article}>
 						<p>
 							Plongez dans l’univers délicat de cette pose d’ongles, pensée comme une véritable ode à la féminité et à la douceur. Chaque détail est minutieusement travaillé pour sublimer vos mains avec grâce, légèreté et créativité.

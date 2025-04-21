@@ -1,1 +1,5 @@
-remplit{min-height:100vh;}
+.accueil{
+        min-height:100vh; 
+        display: flex; 
+        flex-direction: column;
+        font-family:'Inter',sans-serif;}

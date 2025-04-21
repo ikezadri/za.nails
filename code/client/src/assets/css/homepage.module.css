@@ -1,7 +1,7 @@
 .nailsart {
     display: flex;
     flex-direction: column;
-    background: var(--vanille);
+    
     padding: 2rem 1rem;
 }
 
@@ -11,23 +11,25 @@
     font-size: xxx-large;
     text-align: center;
     margin-bottom: 2rem;
-    /* espace entre le titre et l’image */
 }
 
 .nailsart_article {
     display: flex;
+    background-color: var(--vanille);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    margin-bottom: 0;
-    /* retire l’espace en bas */
+    margin:1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
 }
 
 .nailsart_article img {
-    width: 40%;
-    border-radius: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                        width: 40%;
+                        border-radius: 1rem;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                        margin-left: 1rem;
 }
 
 .nailsart_article p {
@@ -35,13 +37,12 @@
     text-align: justify;
     font-size: 1.1rem;
     font-family: 'Inter', sans-serif;
-    margin: 0;
+    margin:2rem;
     line-height: 1.7;
 }
 
 .titre2 {
     font-family: 'Courgette', cursive;
-    background-color: var(--vanille);
     color: var(--bleu);
     padding-top: 1rem;
     text-align: center;
@@ -72,7 +73,6 @@
 
 .imgcontainer {
     display: flex;
-    background: var(--vanille);
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
